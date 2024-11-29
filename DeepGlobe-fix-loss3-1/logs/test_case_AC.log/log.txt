@@ -1,0 +1,1046 @@
+
+:=========== Cross-Domain Few-shot Seg. with CuMNet ===========
+|             datapath: F:/WHT/CDFSSDataSet/Source domain/PASCAL VOC2012/VOCtrainval_11-May-2012/VOCdevkit
+|            benchmark: pascal                  
+|              logpath: test_case_AC            
+|                  bsz: 4                       
+|                   lr: 0.005                   
+|                niter: 30                      
+|              nworker: 0                       
+|                 fold: 4                       
+|             backbone: resnet50                
+:================================================
+
+Backbone # param.: 23561205
+Learnable # param.: 2613738
+Total # param.: 26174943
+# available GPUs: 1
+[Epoch: 00] [Batch: 0001/3420] L: 0.71005  Avg L: 0.71005  mIoU:  4.65  |  FB-IoU: 11.64
+[Epoch: 00] [Batch: 0051/3420] L: 0.52666  Avg L: 0.70136  mIoU:  2.56  |  FB-IoU: 39.75
+[Epoch: 00] [Batch: 0101/3420] L: 0.49726  Avg L: 0.61930  mIoU:  1.75  |  FB-IoU: 39.07
+[Epoch: 00] [Batch: 0151/3420] L: 0.56007  Avg L: 0.55307  mIoU:  1.15  |  FB-IoU: 39.34
+[Epoch: 00] [Batch: 0201/3420] L: 0.41823  Avg L: 0.54383  mIoU:  3.18  |  FB-IoU: 39.92
+[Epoch: 00] [Batch: 0251/3420] L: 0.52335  Avg L: 0.53449  mIoU:  9.16  |  FB-IoU: 42.23
+[Epoch: 00] [Batch: 0301/3420] L: 0.52412  Avg L: 0.51853  mIoU: 11.33  |  FB-IoU: 43.66
+[Epoch: 00] [Batch: 0351/3420] L: 0.27773  Avg L: 0.50640  mIoU: 16.70  |  FB-IoU: 46.01
+[Epoch: 00] [Batch: 0401/3420] L: 0.46035  Avg L: 0.49923  mIoU: 18.29  |  FB-IoU: 46.86
+[Epoch: 00] [Batch: 0451/3420] L: 0.49171  Avg L: 0.49138  mIoU: 19.94  |  FB-IoU: 47.91
+[Epoch: 00] [Batch: 0501/3420] L: 0.46197  Avg L: 0.48456  mIoU: 22.47  |  FB-IoU: 49.15
+[Epoch: 00] [Batch: 0551/3420] L: 0.66876  Avg L: 0.47981  mIoU: 21.99  |  FB-IoU: 48.92
+[Epoch: 00] [Batch: 0601/3420] L: 0.55588  Avg L: 0.47507  mIoU: 23.54  |  FB-IoU: 49.81
+[Epoch: 00] [Batch: 0651/3420] L: 0.31175  Avg L: 0.46878  mIoU: 24.88  |  FB-IoU: 50.58
+[Epoch: 00] [Batch: 0701/3420] L: 0.28599  Avg L: 0.46438  mIoU: 26.28  |  FB-IoU: 51.34
+[Epoch: 00] [Batch: 0751/3420] L: 0.63884  Avg L: 0.46165  mIoU: 26.78  |  FB-IoU: 51.56
+[Epoch: 00] [Batch: 0801/3420] L: 0.42602  Avg L: 0.45818  mIoU: 27.80  |  FB-IoU: 52.05
+[Epoch: 00] [Batch: 0851/3420] L: 0.33124  Avg L: 0.45303  mIoU: 29.13  |  FB-IoU: 52.80
+[Epoch: 00] [Batch: 0901/3420] L: 0.37401  Avg L: 0.45046  mIoU: 30.06  |  FB-IoU: 53.29
+[Epoch: 00] [Batch: 0951/3420] L: 0.37493  Avg L: 0.45028  mIoU: 30.92  |  FB-IoU: 53.77
+[Epoch: 00] [Batch: 1001/3420] L: 0.40359  Avg L: 0.44898  mIoU: 31.60  |  FB-IoU: 54.15
+[Epoch: 00] [Batch: 1051/3420] L: 0.47377  Avg L: 0.44588  mIoU: 32.23  |  FB-IoU: 54.49
+[Epoch: 00] [Batch: 1101/3420] L: 0.31991  Avg L: 0.44407  mIoU: 32.86  |  FB-IoU: 54.85
+[Epoch: 00] [Batch: 1151/3420] L: 0.31777  Avg L: 0.43986  mIoU: 33.54  |  FB-IoU: 55.29
+[Epoch: 00] [Batch: 1201/3420] L: 0.36225  Avg L: 0.43959  mIoU: 34.19  |  FB-IoU: 55.63
+[Epoch: 00] [Batch: 1251/3420] L: 0.55870  Avg L: 0.43726  mIoU: 34.68  |  FB-IoU: 55.91
+[Epoch: 00] [Batch: 1301/3420] L: 0.38010  Avg L: 0.43522  mIoU: 35.20  |  FB-IoU: 56.25
+[Epoch: 00] [Batch: 1351/3420] L: 0.43679  Avg L: 0.43418  mIoU: 35.21  |  FB-IoU: 56.30
+[Epoch: 00] [Batch: 1401/3420] L: 0.26581  Avg L: 0.43277  mIoU: 35.36  |  FB-IoU: 56.36
+[Epoch: 00] [Batch: 1451/3420] L: 0.51999  Avg L: 0.43161  mIoU: 35.79  |  FB-IoU: 56.53
+[Epoch: 00] [Batch: 1501/3420] L: 0.37135  Avg L: 0.43004  mIoU: 35.83  |  FB-IoU: 56.60
+[Epoch: 00] [Batch: 1551/3420] L: 0.35207  Avg L: 0.42935  mIoU: 36.11  |  FB-IoU: 56.69
+[Epoch: 00] [Batch: 1601/3420] L: 0.41738  Avg L: 0.42810  mIoU: 36.38  |  FB-IoU: 56.88
+[Epoch: 00] [Batch: 1651/3420] L: 0.37936  Avg L: 0.42610  mIoU: 36.71  |  FB-IoU: 57.09
+[Epoch: 00] [Batch: 1701/3420] L: 0.36323  Avg L: 0.42615  mIoU: 36.70  |  FB-IoU: 57.05
+[Epoch: 00] [Batch: 1751/3420] L: 0.61404  Avg L: 0.42875  mIoU: 35.94  |  FB-IoU: 56.61
+[Epoch: 00] [Batch: 1801/3420] L: 0.50855  Avg L: 0.42987  mIoU: 35.53  |  FB-IoU: 56.39
+[Epoch: 00] [Batch: 1851/3420] L: 0.41973  Avg L: 0.43079  mIoU: 34.94  |  FB-IoU: 56.03
+[Epoch: 00] [Batch: 1901/3420] L: 0.70508  Avg L: 0.43052  mIoU: 34.99  |  FB-IoU: 56.00
+[Epoch: 00] [Batch: 1951/3420] L: 0.28989  Avg L: 0.43092  mIoU: 35.21  |  FB-IoU: 56.11
+[Epoch: 00] [Batch: 2001/3420] L: 0.39454  Avg L: 0.43104  mIoU: 35.43  |  FB-IoU: 56.20
+[Epoch: 00] [Batch: 2051/3420] L: 0.37823  Avg L: 0.42999  mIoU: 35.41  |  FB-IoU: 56.21
+[Epoch: 00] [Batch: 2101/3420] L: 0.56926  Avg L: 0.42973  mIoU: 35.67  |  FB-IoU: 56.31
+[Epoch: 00] [Batch: 2151/3420] L: 0.59537  Avg L: 0.42959  mIoU: 35.68  |  FB-IoU: 56.28
+[Epoch: 00] [Batch: 2201/3420] L: 0.51702  Avg L: 0.42963  mIoU: 35.52  |  FB-IoU: 56.21
+[Epoch: 00] [Batch: 2251/3420] L: 0.53007  Avg L: 0.42901  mIoU: 35.60  |  FB-IoU: 56.27
+[Epoch: 00] [Batch: 2301/3420] L: 1.00918  Avg L: 0.42913  mIoU: 35.75  |  FB-IoU: 56.32
+[Epoch: 00] [Batch: 2351/3420] L: 0.32514  Avg L: 0.42874  mIoU: 35.91  |  FB-IoU: 56.43
+[Epoch: 00] [Batch: 2401/3420] L: 0.31024  Avg L: 0.42862  mIoU: 36.16  |  FB-IoU: 56.55
+[Epoch: 00] [Batch: 2451/3420] L: 0.64319  Avg L: 0.42811  mIoU: 36.37  |  FB-IoU: 56.66
+[Epoch: 00] [Batch: 2501/3420] L: 0.37356  Avg L: 0.42786  mIoU: 36.54  |  FB-IoU: 56.72
+[Epoch: 00] [Batch: 2551/3420] L: 0.40508  Avg L: 0.42715  mIoU: 36.57  |  FB-IoU: 56.77
+[Epoch: 00] [Batch: 2601/3420] L: 0.17282  Avg L: 0.42540  mIoU: 36.83  |  FB-IoU: 56.94
+[Epoch: 00] [Batch: 2651/3420] L: 0.34038  Avg L: 0.42525  mIoU: 36.83  |  FB-IoU: 56.93
+[Epoch: 00] [Batch: 2701/3420] L: 0.42152  Avg L: 0.42476  mIoU: 37.03  |  FB-IoU: 57.03
+[Epoch: 00] [Batch: 2751/3420] L: 0.21839  Avg L: 0.42425  mIoU: 36.90  |  FB-IoU: 56.96
+[Epoch: 00] [Batch: 2801/3420] L: 0.57802  Avg L: 0.42318  mIoU: 37.03  |  FB-IoU: 57.05
+[Epoch: 00] [Batch: 2851/3420] L: 0.28311  Avg L: 0.42217  mIoU: 37.11  |  FB-IoU: 57.13
+[Epoch: 00] [Batch: 2901/3420] L: 0.33472  Avg L: 0.42177  mIoU: 37.27  |  FB-IoU: 57.23
+[Epoch: 00] [Batch: 2951/3420] L: 0.28582  Avg L: 0.42111  mIoU: 37.43  |  FB-IoU: 57.32
+[Epoch: 00] [Batch: 3001/3420] L: 0.57520  Avg L: 0.42047  mIoU: 37.49  |  FB-IoU: 57.37
+[Epoch: 00] [Batch: 3051/3420] L: 0.54218  Avg L: 0.42025  mIoU: 37.60  |  FB-IoU: 57.43
+[Epoch: 00] [Batch: 3101/3420] L: 0.57917  Avg L: 0.41970  mIoU: 37.73  |  FB-IoU: 57.49
+[Epoch: 00] [Batch: 3151/3420] L: 0.15127  Avg L: 0.41876  mIoU: 37.82  |  FB-IoU: 57.58
+[Epoch: 00] [Batch: 3201/3420] L: 0.31646  Avg L: 0.41860  mIoU: 37.92  |  FB-IoU: 57.61
+[Epoch: 00] [Batch: 3251/3420] L: 0.37006  Avg L: 0.41860  mIoU: 37.89  |  FB-IoU: 57.59
+[Epoch: 00] [Batch: 3301/3420] L: 0.26369  Avg L: 0.41800  mIoU: 37.99  |  FB-IoU: 57.65
+[Epoch: 00] [Batch: 3351/3420] L: 0.48969  Avg L: 0.41739  mIoU: 38.14  |  FB-IoU: 57.73
+[Epoch: 00] [Batch: 3401/3420] L: 0.25326  Avg L: 0.41710  mIoU: 38.24  |  FB-IoU: 57.79
+
+*** Training [@Epoch 00] Avg L: 0.41699  mIoU: 38.29   FB-IoU: 57.82   ***
+
+[Epoch: 00] [Batch: 0001/0150] L: 0.89846  Avg L: 0.89846  mIoU: 24.01  |  FB-IoU: 31.31
+[Epoch: 00] [Batch: 0051/0150] L: 0.89535  Avg L: 0.74658  mIoU: 36.64  |  FB-IoU: 45.13
+[Epoch: 00] [Batch: 0101/0150] L: 0.79981  Avg L: 0.74811  mIoU: 36.31  |  FB-IoU: 45.17
+
+*** Validation [@Epoch 00] Avg L: 0.75062  mIoU: 36.15   FB-IoU: 45.16   ***
+
+Model saved @0 w/ val. mIoU: 36.15.
+
+[Epoch: 01] [Batch: 0001/3420] L: 0.25655  Avg L: 0.25655  mIoU: 12.65  |  FB-IoU: 73.58
+[Epoch: 01] [Batch: 0051/3420] L: 0.24420  Avg L: 0.36090  mIoU: 45.77  |  FB-IoU: 62.86
+[Epoch: 01] [Batch: 0101/3420] L: 0.67724  Avg L: 0.37842  mIoU: 44.71  |  FB-IoU: 63.03
+[Epoch: 01] [Batch: 0151/3420] L: 0.57532  Avg L: 0.38746  mIoU: 39.95  |  FB-IoU: 60.13
+[Epoch: 01] [Batch: 0201/3420] L: 0.42898  Avg L: 0.39622  mIoU: 40.97  |  FB-IoU: 59.80
+[Epoch: 01] [Batch: 0251/3420] L: 0.39278  Avg L: 0.39735  mIoU: 42.06  |  FB-IoU: 59.96
+[Epoch: 01] [Batch: 0301/3420] L: 0.37613  Avg L: 0.39244  mIoU: 42.47  |  FB-IoU: 60.14
+[Epoch: 01] [Batch: 0351/3420] L: 0.37122  Avg L: 0.39360  mIoU: 42.09  |  FB-IoU: 60.21
+[Epoch: 01] [Batch: 0401/3420] L: 0.49006  Avg L: 0.39480  mIoU: 41.11  |  FB-IoU: 59.46
+[Epoch: 01] [Batch: 0451/3420] L: 0.42363  Avg L: 0.39389  mIoU: 41.28  |  FB-IoU: 59.54
+[Epoch: 01] [Batch: 0501/3420] L: 0.39270  Avg L: 0.39180  mIoU: 41.86  |  FB-IoU: 59.89
+[Epoch: 01] [Batch: 0551/3420] L: 0.47709  Avg L: 0.39476  mIoU: 41.75  |  FB-IoU: 59.70
+[Epoch: 01] [Batch: 0601/3420] L: 0.20694  Avg L: 0.39166  mIoU: 41.96  |  FB-IoU: 59.83
+[Epoch: 01] [Batch: 0651/3420] L: 0.32576  Avg L: 0.39426  mIoU: 42.18  |  FB-IoU: 59.96
+[Epoch: 01] [Batch: 0701/3420] L: 0.48209  Avg L: 0.39143  mIoU: 42.61  |  FB-IoU: 60.34
+[Epoch: 01] [Batch: 0751/3420] L: 0.36709  Avg L: 0.39028  mIoU: 42.92  |  FB-IoU: 60.50
+[Epoch: 01] [Batch: 0801/3420] L: 0.34453  Avg L: 0.39068  mIoU: 42.93  |  FB-IoU: 60.55
+[Epoch: 01] [Batch: 0851/3420] L: 0.61836  Avg L: 0.39137  mIoU: 42.93  |  FB-IoU: 60.60
+[Epoch: 01] [Batch: 0901/3420] L: 0.44289  Avg L: 0.39410  mIoU: 42.00  |  FB-IoU: 60.04
+[Epoch: 01] [Batch: 0951/3420] L: 0.31305  Avg L: 0.39408  mIoU: 42.11  |  FB-IoU: 60.05
+[Epoch: 01] [Batch: 1001/3420] L: 0.21369  Avg L: 0.39409  mIoU: 41.92  |  FB-IoU: 59.89
+[Epoch: 01] [Batch: 1051/3420] L: 0.64192  Avg L: 0.39290  mIoU: 42.18  |  FB-IoU: 60.00
+[Epoch: 01] [Batch: 1101/3420] L: 0.32326  Avg L: 0.39077  mIoU: 42.56  |  FB-IoU: 60.20
+[Epoch: 01] [Batch: 1151/3420] L: 0.27116  Avg L: 0.39116  mIoU: 42.65  |  FB-IoU: 60.22
+[Epoch: 01] [Batch: 1201/3420] L: 0.31687  Avg L: 0.39075  mIoU: 42.82  |  FB-IoU: 60.34
+[Epoch: 01] [Batch: 1251/3420] L: 0.31414  Avg L: 0.39080  mIoU: 42.83  |  FB-IoU: 60.35
+[Epoch: 01] [Batch: 1301/3420] L: 0.29922  Avg L: 0.39100  mIoU: 42.73  |  FB-IoU: 60.37
+[Epoch: 01] [Batch: 1351/3420] L: 0.87609  Avg L: 0.39248  mIoU: 42.09  |  FB-IoU: 59.95
+[Epoch: 01] [Batch: 1401/3420] L: 0.33202  Avg L: 0.39216  mIoU: 42.11  |  FB-IoU: 59.99
+[Epoch: 01] [Batch: 1451/3420] L: 0.35724  Avg L: 0.39163  mIoU: 42.23  |  FB-IoU: 60.07
+[Epoch: 01] [Batch: 1501/3420] L: 0.27822  Avg L: 0.39105  mIoU: 42.38  |  FB-IoU: 60.21
+[Epoch: 01] [Batch: 1551/3420] L: 0.18131  Avg L: 0.39031  mIoU: 41.98  |  FB-IoU: 60.02
+[Epoch: 01] [Batch: 1601/3420] L: 0.42538  Avg L: 0.38968  mIoU: 42.06  |  FB-IoU: 60.09
+[Epoch: 01] [Batch: 1651/3420] L: 0.36172  Avg L: 0.38837  mIoU: 42.22  |  FB-IoU: 60.17
+[Epoch: 01] [Batch: 1701/3420] L: 0.28466  Avg L: 0.38747  mIoU: 42.44  |  FB-IoU: 60.25
+[Epoch: 01] [Batch: 1751/3420] L: 0.40476  Avg L: 0.38777  mIoU: 42.63  |  FB-IoU: 60.33
+[Epoch: 01] [Batch: 1801/3420] L: 0.49492  Avg L: 0.38850  mIoU: 42.72  |  FB-IoU: 60.36
+[Epoch: 01] [Batch: 1851/3420] L: 0.41777  Avg L: 0.39268  mIoU: 42.32  |  FB-IoU: 60.09
+[Epoch: 01] [Batch: 1901/3420] L: 0.41085  Avg L: 0.39353  mIoU: 42.19  |  FB-IoU: 60.04
+[Epoch: 01] [Batch: 1951/3420] L: 0.27388  Avg L: 0.39275  mIoU: 41.99  |  FB-IoU: 59.98
+[Epoch: 01] [Batch: 2001/3420] L: 0.41857  Avg L: 0.39249  mIoU: 42.13  |  FB-IoU: 60.07
+[Epoch: 01] [Batch: 2051/3420] L: 0.45181  Avg L: 0.39231  mIoU: 42.20  |  FB-IoU: 60.14
+[Epoch: 01] [Batch: 2101/3420] L: 0.40370  Avg L: 0.39250  mIoU: 42.06  |  FB-IoU: 60.01
+[Epoch: 01] [Batch: 2151/3420] L: 0.32330  Avg L: 0.39247  mIoU: 41.89  |  FB-IoU: 59.92
+[Epoch: 01] [Batch: 2201/3420] L: 0.24795  Avg L: 0.39271  mIoU: 41.84  |  FB-IoU: 59.86
+[Epoch: 01] [Batch: 2251/3420] L: 0.35955  Avg L: 0.39330  mIoU: 41.83  |  FB-IoU: 59.84
+[Epoch: 01] [Batch: 2301/3420] L: 0.40064  Avg L: 0.39295  mIoU: 41.91  |  FB-IoU: 59.90
+[Epoch: 01] [Batch: 2351/3420] L: 0.40344  Avg L: 0.39345  mIoU: 41.86  |  FB-IoU: 59.79
+[Epoch: 01] [Batch: 2401/3420] L: 0.30133  Avg L: 0.39330  mIoU: 41.87  |  FB-IoU: 59.77
+[Epoch: 01] [Batch: 2451/3420] L: 0.38733  Avg L: 0.39304  mIoU: 41.81  |  FB-IoU: 59.74
+[Epoch: 01] [Batch: 2501/3420] L: 0.26000  Avg L: 0.39299  mIoU: 41.61  |  FB-IoU: 59.63
+[Epoch: 01] [Batch: 2551/3420] L: 0.37817  Avg L: 0.39341  mIoU: 41.45  |  FB-IoU: 59.54
+[Epoch: 01] [Batch: 2601/3420] L: 0.33861  Avg L: 0.39478  mIoU: 41.49  |  FB-IoU: 59.52
+[Epoch: 01] [Batch: 2651/3420] L: 0.47628  Avg L: 0.39443  mIoU: 41.48  |  FB-IoU: 59.55
+[Epoch: 01] [Batch: 2701/3420] L: 0.49253  Avg L: 0.39431  mIoU: 41.52  |  FB-IoU: 59.54
+[Epoch: 01] [Batch: 2751/3420] L: 0.26627  Avg L: 0.39477  mIoU: 41.58  |  FB-IoU: 59.56
+[Epoch: 01] [Batch: 2801/3420] L: 0.30977  Avg L: 0.39461  mIoU: 41.63  |  FB-IoU: 59.57
+[Epoch: 01] [Batch: 2851/3420] L: 0.35531  Avg L: 0.39476  mIoU: 41.53  |  FB-IoU: 59.56
+[Epoch: 01] [Batch: 2901/3420] L: 0.41988  Avg L: 0.39447  mIoU: 41.64  |  FB-IoU: 59.62
+[Epoch: 01] [Batch: 2951/3420] L: 0.46607  Avg L: 0.39395  mIoU: 41.71  |  FB-IoU: 59.68
+[Epoch: 01] [Batch: 3001/3420] L: 0.41360  Avg L: 0.39411  mIoU: 41.77  |  FB-IoU: 59.70
+[Epoch: 01] [Batch: 3051/3420] L: 0.49556  Avg L: 0.39390  mIoU: 41.84  |  FB-IoU: 59.75
+[Epoch: 01] [Batch: 3101/3420] L: 0.56019  Avg L: 0.39361  mIoU: 41.94  |  FB-IoU: 59.81
+[Epoch: 01] [Batch: 3151/3420] L: 0.28115  Avg L: 0.39324  mIoU: 41.97  |  FB-IoU: 59.86
+[Epoch: 01] [Batch: 3201/3420] L: 0.74195  Avg L: 0.39275  mIoU: 41.99  |  FB-IoU: 59.91
+[Epoch: 01] [Batch: 3251/3420] L: 0.29861  Avg L: 0.39262  mIoU: 42.02  |  FB-IoU: 59.93
+[Epoch: 01] [Batch: 3301/3420] L: 0.27554  Avg L: 0.39196  mIoU: 42.05  |  FB-IoU: 59.97
+[Epoch: 01] [Batch: 3351/3420] L: 0.39511  Avg L: 0.39147  mIoU: 42.14  |  FB-IoU: 60.02
+[Epoch: 01] [Batch: 3401/3420] L: 0.19178  Avg L: 0.39112  mIoU: 42.20  |  FB-IoU: 60.05
+
+*** Training [@Epoch 01] Avg L: 0.39087  mIoU: 42.22   FB-IoU: 60.06   ***
+
+[Epoch: 01] [Batch: 0001/0150] L: 0.78072  Avg L: 0.78072  mIoU: 28.81  |  FB-IoU: 36.57
+[Epoch: 01] [Batch: 0051/0150] L: 0.67800  Avg L: 0.74596  mIoU: 38.83  |  FB-IoU: 45.45
+[Epoch: 01] [Batch: 0101/0150] L: 0.90102  Avg L: 0.74289  mIoU: 38.55  |  FB-IoU: 45.63
+
+*** Validation [@Epoch 01] Avg L: 0.74476  mIoU: 38.22   FB-IoU: 45.58   ***
+
+Model saved @1 w/ val. mIoU: 38.22.
+
+[Epoch: 02] [Batch: 0001/3420] L: 0.32127  Avg L: 0.32127  mIoU: 11.95  |  FB-IoU: 70.63
+[Epoch: 02] [Batch: 0051/3420] L: 0.24684  Avg L: 0.36880  mIoU: 45.18  |  FB-IoU: 61.18
+[Epoch: 02] [Batch: 0101/3420] L: 0.57346  Avg L: 0.37458  mIoU: 45.82  |  FB-IoU: 63.18
+[Epoch: 02] [Batch: 0151/3420] L: 0.55706  Avg L: 0.38208  mIoU: 41.42  |  FB-IoU: 60.51
+[Epoch: 02] [Batch: 0201/3420] L: 0.39166  Avg L: 0.38819  mIoU: 42.36  |  FB-IoU: 60.39
+[Epoch: 02] [Batch: 0251/3420] L: 0.38312  Avg L: 0.38446  mIoU: 43.77  |  FB-IoU: 61.08
+[Epoch: 02] [Batch: 0301/3420] L: 0.38472  Avg L: 0.37948  mIoU: 44.07  |  FB-IoU: 61.30
+[Epoch: 02] [Batch: 0351/3420] L: 0.35207  Avg L: 0.38199  mIoU: 43.60  |  FB-IoU: 61.24
+[Epoch: 02] [Batch: 0401/3420] L: 0.32488  Avg L: 0.37900  mIoU: 44.15  |  FB-IoU: 61.58
+[Epoch: 02] [Batch: 0451/3420] L: 0.43819  Avg L: 0.37684  mIoU: 44.11  |  FB-IoU: 61.72
+[Epoch: 02] [Batch: 0501/3420] L: 0.37639  Avg L: 0.37475  mIoU: 44.45  |  FB-IoU: 61.94
+[Epoch: 02] [Batch: 0551/3420] L: 0.45006  Avg L: 0.37844  mIoU: 44.10  |  FB-IoU: 61.57
+[Epoch: 02] [Batch: 0601/3420] L: 0.21514  Avg L: 0.37640  mIoU: 44.03  |  FB-IoU: 61.54
+[Epoch: 02] [Batch: 0651/3420] L: 0.31320  Avg L: 0.37806  mIoU: 44.23  |  FB-IoU: 61.68
+[Epoch: 02] [Batch: 0701/3420] L: 0.50844  Avg L: 0.37583  mIoU: 44.63  |  FB-IoU: 61.98
+[Epoch: 02] [Batch: 0751/3420] L: 0.35114  Avg L: 0.37578  mIoU: 44.63  |  FB-IoU: 61.98
+[Epoch: 02] [Batch: 0801/3420] L: 0.34636  Avg L: 0.37613  mIoU: 44.73  |  FB-IoU: 62.03
+[Epoch: 02] [Batch: 0851/3420] L: 0.57631  Avg L: 0.37686  mIoU: 44.53  |  FB-IoU: 61.89
+[Epoch: 02] [Batch: 0901/3420] L: 0.44994  Avg L: 0.38023  mIoU: 43.35  |  FB-IoU: 61.20
+[Epoch: 02] [Batch: 0951/3420] L: 0.32719  Avg L: 0.38107  mIoU: 43.36  |  FB-IoU: 61.13
+[Epoch: 02] [Batch: 1001/3420] L: 0.16646  Avg L: 0.37996  mIoU: 43.57  |  FB-IoU: 61.25
+[Epoch: 02] [Batch: 1051/3420] L: 0.55794  Avg L: 0.37928  mIoU: 43.62  |  FB-IoU: 61.28
+[Epoch: 02] [Batch: 1101/3420] L: 0.30441  Avg L: 0.37744  mIoU: 43.94  |  FB-IoU: 61.44
+[Epoch: 02] [Batch: 1151/3420] L: 0.25661  Avg L: 0.37792  mIoU: 44.03  |  FB-IoU: 61.46
+[Epoch: 02] [Batch: 1201/3420] L: 0.29923  Avg L: 0.37809  mIoU: 44.06  |  FB-IoU: 61.50
+[Epoch: 02] [Batch: 1251/3420] L: 0.31364  Avg L: 0.37831  mIoU: 44.04  |  FB-IoU: 61.50
+[Epoch: 02] [Batch: 1301/3420] L: 0.30277  Avg L: 0.37869  mIoU: 43.77  |  FB-IoU: 61.41
+[Epoch: 02] [Batch: 1351/3420] L: 0.57408  Avg L: 0.37970  mIoU: 43.61  |  FB-IoU: 61.31
+[Epoch: 02] [Batch: 1401/3420] L: 0.33137  Avg L: 0.37923  mIoU: 43.75  |  FB-IoU: 61.42
+[Epoch: 02] [Batch: 1451/3420] L: 0.31906  Avg L: 0.37869  mIoU: 43.73  |  FB-IoU: 61.45
+[Epoch: 02] [Batch: 1501/3420] L: 0.27066  Avg L: 0.37816  mIoU: 43.81  |  FB-IoU: 61.53
+[Epoch: 02] [Batch: 1551/3420] L: 0.19136  Avg L: 0.37672  mIoU: 43.74  |  FB-IoU: 61.53
+[Epoch: 02] [Batch: 1601/3420] L: 0.47078  Avg L: 0.37629  mIoU: 43.70  |  FB-IoU: 61.54
+[Epoch: 02] [Batch: 1651/3420] L: 0.34661  Avg L: 0.37533  mIoU: 43.75  |  FB-IoU: 61.57
+[Epoch: 02] [Batch: 1701/3420] L: 0.29730  Avg L: 0.37448  mIoU: 43.88  |  FB-IoU: 61.61
+[Epoch: 02] [Batch: 1751/3420] L: 0.38473  Avg L: 0.37458  mIoU: 44.04  |  FB-IoU: 61.66
+[Epoch: 02] [Batch: 1801/3420] L: 0.47796  Avg L: 0.37533  mIoU: 44.06  |  FB-IoU: 61.65
+[Epoch: 02] [Batch: 1851/3420] L: 0.34077  Avg L: 0.37602  mIoU: 44.18  |  FB-IoU: 61.66
+[Epoch: 02] [Batch: 1901/3420] L: 0.33265  Avg L: 0.37623  mIoU: 44.34  |  FB-IoU: 61.75
+[Epoch: 02] [Batch: 1951/3420] L: 0.27910  Avg L: 0.37543  mIoU: 44.39  |  FB-IoU: 61.83
+[Epoch: 02] [Batch: 2001/3420] L: 0.39841  Avg L: 0.37539  mIoU: 44.39  |  FB-IoU: 61.84
+[Epoch: 02] [Batch: 2051/3420] L: 0.37810  Avg L: 0.37534  mIoU: 44.39  |  FB-IoU: 61.85
+[Epoch: 02] [Batch: 2101/3420] L: 0.36367  Avg L: 0.37532  mIoU: 44.43  |  FB-IoU: 61.86
+[Epoch: 02] [Batch: 2151/3420] L: 0.33196  Avg L: 0.37521  mIoU: 44.33  |  FB-IoU: 61.83
+[Epoch: 02] [Batch: 2201/3420] L: 0.22867  Avg L: 0.37526  mIoU: 44.38  |  FB-IoU: 61.84
+[Epoch: 02] [Batch: 2251/3420] L: 0.38930  Avg L: 0.37591  mIoU: 44.31  |  FB-IoU: 61.79
+[Epoch: 02] [Batch: 2301/3420] L: 0.40097  Avg L: 0.37564  mIoU: 44.30  |  FB-IoU: 61.82
+[Epoch: 02] [Batch: 2351/3420] L: 0.43485  Avg L: 0.37589  mIoU: 44.38  |  FB-IoU: 61.80
+[Epoch: 02] [Batch: 2401/3420] L: 0.28980  Avg L: 0.37540  mIoU: 44.50  |  FB-IoU: 61.88
+[Epoch: 02] [Batch: 2451/3420] L: 0.29297  Avg L: 0.37527  mIoU: 44.47  |  FB-IoU: 61.87
+[Epoch: 02] [Batch: 2501/3420] L: 0.21205  Avg L: 0.37522  mIoU: 44.42  |  FB-IoU: 61.86
+[Epoch: 02] [Batch: 2551/3420] L: 0.45855  Avg L: 0.37552  mIoU: 44.39  |  FB-IoU: 61.82
+[Epoch: 02] [Batch: 2601/3420] L: 0.32320  Avg L: 0.37652  mIoU: 44.52  |  FB-IoU: 61.86
+[Epoch: 02] [Batch: 2651/3420] L: 0.44965  Avg L: 0.37615  mIoU: 44.47  |  FB-IoU: 61.87
+[Epoch: 02] [Batch: 2701/3420] L: 0.44877  Avg L: 0.37571  mIoU: 44.57  |  FB-IoU: 61.92
+[Epoch: 02] [Batch: 2751/3420] L: 0.23548  Avg L: 0.37626  mIoU: 44.54  |  FB-IoU: 61.90
+[Epoch: 02] [Batch: 2801/3420] L: 0.35289  Avg L: 0.37611  mIoU: 44.55  |  FB-IoU: 61.89
+[Epoch: 02] [Batch: 2851/3420] L: 0.30293  Avg L: 0.37600  mIoU: 44.61  |  FB-IoU: 61.93
+[Epoch: 02] [Batch: 2901/3420] L: 0.41054  Avg L: 0.37571  mIoU: 44.67  |  FB-IoU: 61.96
+[Epoch: 02] [Batch: 2951/3420] L: 0.41012  Avg L: 0.37535  mIoU: 44.71  |  FB-IoU: 62.01
+[Epoch: 02] [Batch: 3001/3420] L: 0.37244  Avg L: 0.37538  mIoU: 44.71  |  FB-IoU: 61.99
+[Epoch: 02] [Batch: 3051/3420] L: 0.53400  Avg L: 0.37511  mIoU: 44.73  |  FB-IoU: 62.03
+[Epoch: 02] [Batch: 3101/3420] L: 0.59160  Avg L: 0.37556  mIoU: 44.66  |  FB-IoU: 61.96
+[Epoch: 02] [Batch: 3151/3420] L: 0.24802  Avg L: 0.37567  mIoU: 44.42  |  FB-IoU: 61.86
+[Epoch: 02] [Batch: 3201/3420] L: 0.76027  Avg L: 0.37514  mIoU: 44.45  |  FB-IoU: 61.92
+[Epoch: 02] [Batch: 3251/3420] L: 0.28433  Avg L: 0.37512  mIoU: 44.45  |  FB-IoU: 61.92
+[Epoch: 02] [Batch: 3301/3420] L: 0.24915  Avg L: 0.37449  mIoU: 44.46  |  FB-IoU: 61.95
+[Epoch: 02] [Batch: 3351/3420] L: 0.39013  Avg L: 0.37406  mIoU: 44.50  |  FB-IoU: 61.97
+[Epoch: 02] [Batch: 3401/3420] L: 0.19732  Avg L: 0.37392  mIoU: 44.50  |  FB-IoU: 61.97
+
+*** Training [@Epoch 02] Avg L: 0.37368  mIoU: 44.50   FB-IoU: 61.98   ***
+
+[Epoch: 02] [Batch: 0001/0150] L: 0.81871  Avg L: 0.81871  mIoU: 26.83  |  FB-IoU: 35.21
+[Epoch: 02] [Batch: 0051/0150] L: 0.68766  Avg L: 0.75131  mIoU: 36.59  |  FB-IoU: 45.31
+[Epoch: 02] [Batch: 0101/0150] L: 0.79297  Avg L: 0.74605  mIoU: 36.49  |  FB-IoU: 45.33
+
+*** Validation [@Epoch 02] Avg L: 0.74127  mIoU: 36.46   FB-IoU: 45.59   ***
+
+[Epoch: 03] [Batch: 0001/3420] L: 0.27250  Avg L: 0.27250  mIoU: 11.52  |  FB-IoU: 68.87
+[Epoch: 03] [Batch: 0051/3420] L: 0.24067  Avg L: 0.34156  mIoU: 46.22  |  FB-IoU: 63.70
+[Epoch: 03] [Batch: 0101/3420] L: 0.61769  Avg L: 0.35878  mIoU: 46.20  |  FB-IoU: 63.89
+[Epoch: 03] [Batch: 0151/3420] L: 0.48437  Avg L: 0.37100  mIoU: 40.07  |  FB-IoU: 60.43
+[Epoch: 03] [Batch: 0201/3420] L: 0.38041  Avg L: 0.37793  mIoU: 41.65  |  FB-IoU: 60.39
+[Epoch: 03] [Batch: 0251/3420] L: 0.33774  Avg L: 0.37488  mIoU: 43.40  |  FB-IoU: 61.19
+[Epoch: 03] [Batch: 0301/3420] L: 0.37629  Avg L: 0.36978  mIoU: 43.77  |  FB-IoU: 61.45
+[Epoch: 03] [Batch: 0351/3420] L: 0.32710  Avg L: 0.37212  mIoU: 42.96  |  FB-IoU: 61.15
+[Epoch: 03] [Batch: 0401/3420] L: 0.31876  Avg L: 0.36869  mIoU: 43.85  |  FB-IoU: 61.67
+[Epoch: 03] [Batch: 0451/3420] L: 0.44812  Avg L: 0.36688  mIoU: 43.93  |  FB-IoU: 61.84
+[Epoch: 03] [Batch: 0501/3420] L: 0.45669  Avg L: 0.36454  mIoU: 43.98  |  FB-IoU: 61.95
+[Epoch: 03] [Batch: 0551/3420] L: 0.44854  Avg L: 0.36863  mIoU: 43.70  |  FB-IoU: 61.65
+[Epoch: 03] [Batch: 0601/3420] L: 0.20358  Avg L: 0.36606  mIoU: 43.76  |  FB-IoU: 61.71
+[Epoch: 03] [Batch: 0651/3420] L: 0.29294  Avg L: 0.36893  mIoU: 43.61  |  FB-IoU: 61.64
+[Epoch: 03] [Batch: 0701/3420] L: 0.53949  Avg L: 0.36774  mIoU: 43.82  |  FB-IoU: 61.83
+[Epoch: 03] [Batch: 0751/3420] L: 0.36118  Avg L: 0.36741  mIoU: 43.88  |  FB-IoU: 61.94
+[Epoch: 03] [Batch: 0801/3420] L: 0.33954  Avg L: 0.36773  mIoU: 43.90  |  FB-IoU: 61.99
+[Epoch: 03] [Batch: 0851/3420] L: 0.54183  Avg L: 0.36647  mIoU: 43.90  |  FB-IoU: 62.07
+[Epoch: 03] [Batch: 0901/3420] L: 0.48039  Avg L: 0.36806  mIoU: 43.65  |  FB-IoU: 61.89
+[Epoch: 03] [Batch: 0951/3420] L: 0.31640  Avg L: 0.36830  mIoU: 43.73  |  FB-IoU: 61.86
+[Epoch: 03] [Batch: 1001/3420] L: 0.13509  Avg L: 0.36686  mIoU: 43.94  |  FB-IoU: 61.97
+[Epoch: 03] [Batch: 1051/3420] L: 0.58663  Avg L: 0.36604  mIoU: 43.98  |  FB-IoU: 61.99
+[Epoch: 03] [Batch: 1101/3420] L: 0.29950  Avg L: 0.36429  mIoU: 44.21  |  FB-IoU: 62.12
+[Epoch: 03] [Batch: 1151/3420] L: 0.22382  Avg L: 0.36386  mIoU: 44.31  |  FB-IoU: 62.20
+[Epoch: 03] [Batch: 1201/3420] L: 0.29755  Avg L: 0.36424  mIoU: 44.31  |  FB-IoU: 62.25
+[Epoch: 03] [Batch: 1251/3420] L: 0.31742  Avg L: 0.36447  mIoU: 44.27  |  FB-IoU: 62.23
+[Epoch: 03] [Batch: 1301/3420] L: 0.29919  Avg L: 0.36540  mIoU: 44.14  |  FB-IoU: 62.19
+[Epoch: 03] [Batch: 1351/3420] L: 0.49807  Avg L: 0.36612  mIoU: 43.99  |  FB-IoU: 62.10
+[Epoch: 03] [Batch: 1401/3420] L: 0.31545  Avg L: 0.36616  mIoU: 44.12  |  FB-IoU: 62.17
+[Epoch: 03] [Batch: 1451/3420] L: 0.29740  Avg L: 0.36568  mIoU: 44.19  |  FB-IoU: 62.20
+[Epoch: 03] [Batch: 1501/3420] L: 0.28012  Avg L: 0.36504  mIoU: 44.30  |  FB-IoU: 62.30
+[Epoch: 03] [Batch: 1551/3420] L: 0.17635  Avg L: 0.36402  mIoU: 44.19  |  FB-IoU: 62.26
+[Epoch: 03] [Batch: 1601/3420] L: 0.39314  Avg L: 0.36376  mIoU: 44.11  |  FB-IoU: 62.25
+[Epoch: 03] [Batch: 1651/3420] L: 0.40099  Avg L: 0.36436  mIoU: 43.81  |  FB-IoU: 62.03
+[Epoch: 03] [Batch: 1701/3420] L: 0.30526  Avg L: 0.36414  mIoU: 43.71  |  FB-IoU: 62.00
+[Epoch: 03] [Batch: 1751/3420] L: 0.39916  Avg L: 0.36475  mIoU: 43.91  |  FB-IoU: 62.04
+[Epoch: 03] [Batch: 1801/3420] L: 0.50652  Avg L: 0.36606  mIoU: 43.94  |  FB-IoU: 62.00
+[Epoch: 03] [Batch: 1851/3420] L: 0.38902  Avg L: 0.36863  mIoU: 43.47  |  FB-IoU: 61.65
+[Epoch: 03] [Batch: 1901/3420] L: 0.33708  Avg L: 0.36919  mIoU: 43.65  |  FB-IoU: 61.74
+[Epoch: 03] [Batch: 1951/3420] L: 0.28499  Avg L: 0.36846  mIoU: 43.67  |  FB-IoU: 61.80
+[Epoch: 03] [Batch: 2001/3420] L: 0.38377  Avg L: 0.36855  mIoU: 43.66  |  FB-IoU: 61.79
+[Epoch: 03] [Batch: 2051/3420] L: 0.40609  Avg L: 0.36869  mIoU: 43.66  |  FB-IoU: 61.79
+[Epoch: 03] [Batch: 2101/3420] L: 0.38125  Avg L: 0.36875  mIoU: 43.67  |  FB-IoU: 61.77
+[Epoch: 03] [Batch: 2151/3420] L: 0.39205  Avg L: 0.36860  mIoU: 43.59  |  FB-IoU: 61.73
+[Epoch: 03] [Batch: 2201/3420] L: 0.21764  Avg L: 0.36877  mIoU: 43.68  |  FB-IoU: 61.74
+[Epoch: 03] [Batch: 2251/3420] L: 0.36693  Avg L: 0.36934  mIoU: 43.63  |  FB-IoU: 61.69
+[Epoch: 03] [Batch: 2301/3420] L: 0.38609  Avg L: 0.36922  mIoU: 43.60  |  FB-IoU: 61.69
+[Epoch: 03] [Batch: 2351/3420] L: 0.45356  Avg L: 0.36942  mIoU: 43.71  |  FB-IoU: 61.70
+[Epoch: 03] [Batch: 2401/3420] L: 0.30237  Avg L: 0.36911  mIoU: 43.85  |  FB-IoU: 61.76
+[Epoch: 03] [Batch: 2451/3420] L: 0.26837  Avg L: 0.36901  mIoU: 43.83  |  FB-IoU: 61.76
+[Epoch: 03] [Batch: 2501/3420] L: 0.27198  Avg L: 0.36901  mIoU: 43.79  |  FB-IoU: 61.74
+[Epoch: 03] [Batch: 2551/3420] L: 0.43949  Avg L: 0.36931  mIoU: 43.77  |  FB-IoU: 61.71
+[Epoch: 03] [Batch: 2601/3420] L: 0.31711  Avg L: 0.37018  mIoU: 43.92  |  FB-IoU: 61.75
+[Epoch: 03] [Batch: 2651/3420] L: 0.46292  Avg L: 0.36993  mIoU: 43.87  |  FB-IoU: 61.76
+[Epoch: 03] [Batch: 2701/3420] L: 0.43344  Avg L: 0.36959  mIoU: 44.00  |  FB-IoU: 61.80
+[Epoch: 03] [Batch: 2751/3420] L: 0.25801  Avg L: 0.37032  mIoU: 43.95  |  FB-IoU: 61.76
+[Epoch: 03] [Batch: 2801/3420] L: 0.34120  Avg L: 0.37013  mIoU: 43.96  |  FB-IoU: 61.76
+[Epoch: 03] [Batch: 2851/3420] L: 0.32259  Avg L: 0.37025  mIoU: 44.04  |  FB-IoU: 61.79
+[Epoch: 03] [Batch: 2901/3420] L: 0.37877  Avg L: 0.36987  mIoU: 44.12  |  FB-IoU: 61.85
+[Epoch: 03] [Batch: 2951/3420] L: 0.40470  Avg L: 0.36952  mIoU: 44.15  |  FB-IoU: 61.87
+[Epoch: 03] [Batch: 3001/3420] L: 0.36680  Avg L: 0.36965  mIoU: 44.19  |  FB-IoU: 61.87
+[Epoch: 03] [Batch: 3051/3420] L: 0.53794  Avg L: 0.36949  mIoU: 44.22  |  FB-IoU: 61.90
+[Epoch: 03] [Batch: 3101/3420] L: 0.50303  Avg L: 0.36954  mIoU: 44.26  |  FB-IoU: 61.90
+[Epoch: 03] [Batch: 3151/3420] L: 0.26073  Avg L: 0.36963  mIoU: 44.20  |  FB-IoU: 61.89
+[Epoch: 03] [Batch: 3201/3420] L: 0.77993  Avg L: 0.36937  mIoU: 44.22  |  FB-IoU: 61.92
+[Epoch: 03] [Batch: 3251/3420] L: 0.28634  Avg L: 0.36949  mIoU: 44.21  |  FB-IoU: 61.92
+[Epoch: 03] [Batch: 3301/3420] L: 0.29242  Avg L: 0.36904  mIoU: 44.21  |  FB-IoU: 61.94
+[Epoch: 03] [Batch: 3351/3420] L: 0.37786  Avg L: 0.36878  mIoU: 44.24  |  FB-IoU: 61.95
+[Epoch: 03] [Batch: 3401/3420] L: 0.21535  Avg L: 0.36884  mIoU: 44.22  |  FB-IoU: 61.93
+
+*** Training [@Epoch 03] Avg L: 0.36869  mIoU: 44.23   FB-IoU: 61.93   ***
+
+[Epoch: 03] [Batch: 0001/0150] L: 0.78065  Avg L: 0.78065  mIoU: 29.78  |  FB-IoU: 36.18
+[Epoch: 03] [Batch: 0051/0150] L: 0.74633  Avg L: 0.75617  mIoU: 37.27  |  FB-IoU: 43.52
+[Epoch: 03] [Batch: 0101/0150] L: 0.75645  Avg L: 0.75531  mIoU: 36.85  |  FB-IoU: 43.23
+
+*** Validation [@Epoch 03] Avg L: 0.75376  mIoU: 36.77   FB-IoU: 43.31   ***
+
+[Epoch: 04] [Batch: 0001/3420] L: 0.28027  Avg L: 0.28027  mIoU: 11.86  |  FB-IoU: 70.12
+[Epoch: 04] [Batch: 0051/3420] L: 0.19848  Avg L: 0.34013  mIoU: 47.47  |  FB-IoU: 63.27
+[Epoch: 04] [Batch: 0101/3420] L: 0.59009  Avg L: 0.35870  mIoU: 46.71  |  FB-IoU: 63.48
+[Epoch: 04] [Batch: 0151/3420] L: 0.49892  Avg L: 0.37091  mIoU: 40.39  |  FB-IoU: 60.20
+[Epoch: 04] [Batch: 0201/3420] L: 0.36682  Avg L: 0.37780  mIoU: 41.90  |  FB-IoU: 60.43
+[Epoch: 04] [Batch: 0251/3420] L: 0.30112  Avg L: 0.37237  mIoU: 43.81  |  FB-IoU: 61.39
+[Epoch: 04] [Batch: 0301/3420] L: 0.36207  Avg L: 0.36590  mIoU: 44.21  |  FB-IoU: 61.76
+[Epoch: 04] [Batch: 0351/3420] L: 0.32858  Avg L: 0.36826  mIoU: 44.00  |  FB-IoU: 61.77
+[Epoch: 04] [Batch: 0401/3420] L: 0.30836  Avg L: 0.36474  mIoU: 44.83  |  FB-IoU: 62.22
+[Epoch: 04] [Batch: 0451/3420] L: 0.43575  Avg L: 0.36340  mIoU: 44.69  |  FB-IoU: 62.31
+[Epoch: 04] [Batch: 0501/3420] L: 0.38025  Avg L: 0.36031  mIoU: 45.04  |  FB-IoU: 62.64
+[Epoch: 04] [Batch: 0551/3420] L: 0.44182  Avg L: 0.36412  mIoU: 44.64  |  FB-IoU: 62.22
+[Epoch: 04] [Batch: 0601/3420] L: 0.19907  Avg L: 0.36181  mIoU: 44.67  |  FB-IoU: 62.28
+[Epoch: 04] [Batch: 0651/3420] L: 0.31583  Avg L: 0.36370  mIoU: 44.63  |  FB-IoU: 62.27
+[Epoch: 04] [Batch: 0701/3420] L: 0.54280  Avg L: 0.36199  mIoU: 45.10  |  FB-IoU: 62.59
+[Epoch: 04] [Batch: 0751/3420] L: 0.33774  Avg L: 0.36107  mIoU: 45.18  |  FB-IoU: 62.70
+[Epoch: 04] [Batch: 0801/3420] L: 0.36686  Avg L: 0.36100  mIoU: 45.27  |  FB-IoU: 62.78
+[Epoch: 04] [Batch: 0851/3420] L: 0.53828  Avg L: 0.36014  mIoU: 45.19  |  FB-IoU: 62.81
+[Epoch: 04] [Batch: 0901/3420] L: 0.49190  Avg L: 0.36154  mIoU: 44.72  |  FB-IoU: 62.56
+[Epoch: 04] [Batch: 0951/3420] L: 0.33281  Avg L: 0.36294  mIoU: 44.37  |  FB-IoU: 62.28
+[Epoch: 04] [Batch: 1001/3420] L: 0.20750  Avg L: 0.36265  mIoU: 44.45  |  FB-IoU: 62.28
+[Epoch: 04] [Batch: 1051/3420] L: 0.49389  Avg L: 0.36233  mIoU: 44.45  |  FB-IoU: 62.22
+[Epoch: 04] [Batch: 1101/3420] L: 0.33756  Avg L: 0.36143  mIoU: 44.22  |  FB-IoU: 62.12
+[Epoch: 04] [Batch: 1151/3420] L: 0.29805  Avg L: 0.36263  mIoU: 43.86  |  FB-IoU: 61.85
+[Epoch: 04] [Batch: 1201/3420] L: 0.32776  Avg L: 0.36443  mIoU: 43.47  |  FB-IoU: 61.57
+[Epoch: 04] [Batch: 1251/3420] L: 0.29133  Avg L: 0.36474  mIoU: 43.53  |  FB-IoU: 61.58
+[Epoch: 04] [Batch: 1301/3420] L: 0.30404  Avg L: 0.36600  mIoU: 43.19  |  FB-IoU: 61.38
+[Epoch: 04] [Batch: 1351/3420] L: 0.51481  Avg L: 0.36727  mIoU: 42.73  |  FB-IoU: 61.14
+[Epoch: 04] [Batch: 1401/3420] L: 0.32755  Avg L: 0.36830  mIoU: 42.74  |  FB-IoU: 61.12
+[Epoch: 04] [Batch: 1451/3420] L: 0.29957  Avg L: 0.36814  mIoU: 42.76  |  FB-IoU: 61.15
+[Epoch: 04] [Batch: 1501/3420] L: 0.26157  Avg L: 0.36757  mIoU: 42.89  |  FB-IoU: 61.25
+[Epoch: 04] [Batch: 1551/3420] L: 0.16686  Avg L: 0.36632  mIoU: 42.81  |  FB-IoU: 61.26
+[Epoch: 04] [Batch: 1601/3420] L: 0.32847  Avg L: 0.36588  mIoU: 42.80  |  FB-IoU: 61.30
+[Epoch: 04] [Batch: 1651/3420] L: 0.37455  Avg L: 0.36486  mIoU: 42.88  |  FB-IoU: 61.32
+[Epoch: 04] [Batch: 1701/3420] L: 0.30141  Avg L: 0.36440  mIoU: 42.98  |  FB-IoU: 61.33
+[Epoch: 04] [Batch: 1751/3420] L: 0.36738  Avg L: 0.36452  mIoU: 43.17  |  FB-IoU: 61.39
+[Epoch: 04] [Batch: 1801/3420] L: 0.47790  Avg L: 0.36533  mIoU: 43.18  |  FB-IoU: 61.38
+[Epoch: 04] [Batch: 1851/3420] L: 0.31019  Avg L: 0.36562  mIoU: 43.35  |  FB-IoU: 61.41
+[Epoch: 04] [Batch: 1901/3420] L: 0.31932  Avg L: 0.36569  mIoU: 43.53  |  FB-IoU: 61.53
+[Epoch: 04] [Batch: 1951/3420] L: 0.24250  Avg L: 0.36469  mIoU: 43.58  |  FB-IoU: 61.63
+[Epoch: 04] [Batch: 2001/3420] L: 0.40082  Avg L: 0.36391  mIoU: 43.68  |  FB-IoU: 61.71
+[Epoch: 04] [Batch: 2051/3420] L: 0.37634  Avg L: 0.36379  mIoU: 43.63  |  FB-IoU: 61.75
+[Epoch: 04] [Batch: 2101/3420] L: 0.35023  Avg L: 0.36396  mIoU: 43.67  |  FB-IoU: 61.74
+[Epoch: 04] [Batch: 2151/3420] L: 0.29968  Avg L: 0.36368  mIoU: 43.60  |  FB-IoU: 61.72
+[Epoch: 04] [Batch: 2201/3420] L: 0.16017  Avg L: 0.36370  mIoU: 43.68  |  FB-IoU: 61.75
+[Epoch: 04] [Batch: 2251/3420] L: 0.35207  Avg L: 0.36404  mIoU: 43.67  |  FB-IoU: 61.73
+[Epoch: 04] [Batch: 2301/3420] L: 0.38654  Avg L: 0.36374  mIoU: 43.66  |  FB-IoU: 61.75
+[Epoch: 04] [Batch: 2351/3420] L: 0.39024  Avg L: 0.36367  mIoU: 43.76  |  FB-IoU: 61.79
+[Epoch: 04] [Batch: 2401/3420] L: 0.29085  Avg L: 0.36296  mIoU: 43.93  |  FB-IoU: 61.89
+[Epoch: 04] [Batch: 2451/3420] L: 0.26913  Avg L: 0.36268  mIoU: 43.91  |  FB-IoU: 61.90
+[Epoch: 04] [Batch: 2501/3420] L: 0.24275  Avg L: 0.36253  mIoU: 43.88  |  FB-IoU: 61.89
+[Epoch: 04] [Batch: 2551/3420] L: 0.42659  Avg L: 0.36269  mIoU: 43.82  |  FB-IoU: 61.85
+[Epoch: 04] [Batch: 2601/3420] L: 0.32482  Avg L: 0.36354  mIoU: 43.94  |  FB-IoU: 61.89
+[Epoch: 04] [Batch: 2651/3420] L: 0.45680  Avg L: 0.36335  mIoU: 43.83  |  FB-IoU: 61.87
+[Epoch: 04] [Batch: 2701/3420] L: 0.47245  Avg L: 0.36290  mIoU: 43.94  |  FB-IoU: 61.92
+[Epoch: 04] [Batch: 2751/3420] L: 0.25231  Avg L: 0.36340  mIoU: 43.95  |  FB-IoU: 61.92
+[Epoch: 04] [Batch: 2801/3420] L: 0.29052  Avg L: 0.36307  mIoU: 43.97  |  FB-IoU: 61.94
+[Epoch: 04] [Batch: 2851/3420] L: 0.35114  Avg L: 0.36292  mIoU: 44.02  |  FB-IoU: 61.98
+[Epoch: 04] [Batch: 2901/3420] L: 0.40092  Avg L: 0.36255  mIoU: 44.11  |  FB-IoU: 62.03
+[Epoch: 04] [Batch: 2951/3420] L: 0.42042  Avg L: 0.36241  mIoU: 44.17  |  FB-IoU: 62.08
+[Epoch: 04] [Batch: 3001/3420] L: 0.33309  Avg L: 0.36245  mIoU: 44.19  |  FB-IoU: 62.07
+[Epoch: 04] [Batch: 3051/3420] L: 0.39508  Avg L: 0.36205  mIoU: 44.21  |  FB-IoU: 62.12
+[Epoch: 04] [Batch: 3101/3420] L: 0.43443  Avg L: 0.36180  mIoU: 44.30  |  FB-IoU: 62.16
+[Epoch: 04] [Batch: 3151/3420] L: 0.27250  Avg L: 0.36132  mIoU: 44.34  |  FB-IoU: 62.23
+[Epoch: 04] [Batch: 3201/3420] L: 0.71070  Avg L: 0.36076  mIoU: 44.38  |  FB-IoU: 62.29
+[Epoch: 04] [Batch: 3251/3420] L: 0.29081  Avg L: 0.36073  mIoU: 44.35  |  FB-IoU: 62.29
+[Epoch: 04] [Batch: 3301/3420] L: 0.21834  Avg L: 0.36010  mIoU: 44.36  |  FB-IoU: 62.32
+[Epoch: 04] [Batch: 3351/3420] L: 0.37574  Avg L: 0.35972  mIoU: 44.38  |  FB-IoU: 62.34
+[Epoch: 04] [Batch: 3401/3420] L: 0.20588  Avg L: 0.35973  mIoU: 44.38  |  FB-IoU: 62.34
+
+*** Training [@Epoch 04] Avg L: 0.35950  mIoU: 44.38   FB-IoU: 62.35   ***
+
+[Epoch: 04] [Batch: 0001/0150] L: 0.83316  Avg L: 0.83316  mIoU: 24.87  |  FB-IoU: 32.25
+[Epoch: 04] [Batch: 0051/0150] L: 0.68491  Avg L: 0.72908  mIoU: 36.09  |  FB-IoU: 45.20
+[Epoch: 04] [Batch: 0101/0150] L: 0.76336  Avg L: 0.71457  mIoU: 36.49  |  FB-IoU: 45.73
+
+*** Validation [@Epoch 04] Avg L: 0.71152  mIoU: 36.61   FB-IoU: 45.95   ***
+
+[Epoch: 05] [Batch: 0001/3420] L: 0.26877  Avg L: 0.26877  mIoU: 11.61  |  FB-IoU: 69.71
+[Epoch: 05] [Batch: 0051/3420] L: 0.17781  Avg L: 0.32432  mIoU: 47.75  |  FB-IoU: 64.69
+[Epoch: 05] [Batch: 0101/3420] L: 0.58638  Avg L: 0.33434  mIoU: 47.86  |  FB-IoU: 65.81
+[Epoch: 05] [Batch: 0151/3420] L: 0.68205  Avg L: 0.33942  mIoU: 45.10  |  FB-IoU: 64.10
+[Epoch: 05] [Batch: 0201/3420] L: 0.34627  Avg L: 0.35031  mIoU: 44.87  |  FB-IoU: 63.35
+[Epoch: 05] [Batch: 0251/3420] L: 0.36964  Avg L: 0.34748  mIoU: 46.22  |  FB-IoU: 63.87
+[Epoch: 05] [Batch: 0301/3420] L: 0.37197  Avg L: 0.34386  mIoU: 46.36  |  FB-IoU: 64.05
+[Epoch: 05] [Batch: 0351/3420] L: 0.34308  Avg L: 0.34651  mIoU: 45.65  |  FB-IoU: 63.92
+[Epoch: 05] [Batch: 0401/3420] L: 0.29439  Avg L: 0.34517  mIoU: 46.29  |  FB-IoU: 64.13
+[Epoch: 05] [Batch: 0451/3420] L: 0.45932  Avg L: 0.34358  mIoU: 46.21  |  FB-IoU: 64.24
+[Epoch: 05] [Batch: 0501/3420] L: 0.35458  Avg L: 0.34177  mIoU: 46.38  |  FB-IoU: 64.44
+[Epoch: 05] [Batch: 0551/3420] L: 0.37235  Avg L: 0.34563  mIoU: 46.12  |  FB-IoU: 64.12
+[Epoch: 05] [Batch: 0601/3420] L: 0.18828  Avg L: 0.34361  mIoU: 46.23  |  FB-IoU: 64.09
+[Epoch: 05] [Batch: 0651/3420] L: 0.29522  Avg L: 0.34587  mIoU: 46.13  |  FB-IoU: 64.01
+[Epoch: 05] [Batch: 0701/3420] L: 0.48556  Avg L: 0.34539  mIoU: 46.41  |  FB-IoU: 64.19
+[Epoch: 05] [Batch: 0751/3420] L: 0.32584  Avg L: 0.34454  mIoU: 46.38  |  FB-IoU: 64.23
+[Epoch: 05] [Batch: 0801/3420] L: 0.34386  Avg L: 0.34464  mIoU: 46.48  |  FB-IoU: 64.30
+[Epoch: 05] [Batch: 0851/3420] L: 0.49194  Avg L: 0.34419  mIoU: 46.45  |  FB-IoU: 64.30
+[Epoch: 05] [Batch: 0901/3420] L: 0.42421  Avg L: 0.34623  mIoU: 46.10  |  FB-IoU: 64.02
+[Epoch: 05] [Batch: 0951/3420] L: 0.31048  Avg L: 0.34763  mIoU: 46.12  |  FB-IoU: 63.88
+[Epoch: 05] [Batch: 1001/3420] L: 0.14708  Avg L: 0.34719  mIoU: 46.20  |  FB-IoU: 63.92
+[Epoch: 05] [Batch: 1051/3420] L: 0.46961  Avg L: 0.34715  mIoU: 46.23  |  FB-IoU: 63.84
+[Epoch: 05] [Batch: 1101/3420] L: 0.29053  Avg L: 0.34599  mIoU: 46.45  |  FB-IoU: 63.95
+[Epoch: 05] [Batch: 1151/3420] L: 0.20387  Avg L: 0.34569  mIoU: 46.49  |  FB-IoU: 63.97
+[Epoch: 05] [Batch: 1201/3420] L: 0.26957  Avg L: 0.34664  mIoU: 46.34  |  FB-IoU: 63.92
+[Epoch: 05] [Batch: 1251/3420] L: 0.29887  Avg L: 0.34682  mIoU: 46.26  |  FB-IoU: 63.89
+[Epoch: 05] [Batch: 1301/3420] L: 0.27643  Avg L: 0.34786  mIoU: 46.07  |  FB-IoU: 63.82
+[Epoch: 05] [Batch: 1351/3420] L: 0.51189  Avg L: 0.34836  mIoU: 45.98  |  FB-IoU: 63.77
+[Epoch: 05] [Batch: 1401/3420] L: 0.30600  Avg L: 0.34856  mIoU: 46.12  |  FB-IoU: 63.83
+[Epoch: 05] [Batch: 1451/3420] L: 0.29664  Avg L: 0.34833  mIoU: 46.08  |  FB-IoU: 63.82
+[Epoch: 05] [Batch: 1501/3420] L: 0.27527  Avg L: 0.34808  mIoU: 46.03  |  FB-IoU: 63.81
+[Epoch: 05] [Batch: 1551/3420] L: 0.16919  Avg L: 0.34750  mIoU: 45.92  |  FB-IoU: 63.77
+[Epoch: 05] [Batch: 1601/3420] L: 0.32869  Avg L: 0.34739  mIoU: 45.84  |  FB-IoU: 63.75
+[Epoch: 05] [Batch: 1651/3420] L: 0.35898  Avg L: 0.34661  mIoU: 45.86  |  FB-IoU: 63.74
+[Epoch: 05] [Batch: 1701/3420] L: 0.24642  Avg L: 0.34612  mIoU: 45.96  |  FB-IoU: 63.76
+[Epoch: 05] [Batch: 1751/3420] L: 0.35789  Avg L: 0.34608  mIoU: 46.08  |  FB-IoU: 63.79
+[Epoch: 05] [Batch: 1801/3420] L: 0.41528  Avg L: 0.34671  mIoU: 45.98  |  FB-IoU: 63.72
+[Epoch: 05] [Batch: 1851/3420] L: 0.30975  Avg L: 0.34736  mIoU: 46.04  |  FB-IoU: 63.70
+[Epoch: 05] [Batch: 1901/3420] L: 0.28501  Avg L: 0.34746  mIoU: 46.15  |  FB-IoU: 63.78
+[Epoch: 05] [Batch: 1951/3420] L: 0.23582  Avg L: 0.34667  mIoU: 46.13  |  FB-IoU: 63.83
+[Epoch: 05] [Batch: 2001/3420] L: 0.38757  Avg L: 0.34622  mIoU: 46.13  |  FB-IoU: 63.86
+[Epoch: 05] [Batch: 2051/3420] L: 0.34700  Avg L: 0.34616  mIoU: 46.00  |  FB-IoU: 63.85
+[Epoch: 05] [Batch: 2101/3420] L: 0.38549  Avg L: 0.34607  mIoU: 45.98  |  FB-IoU: 63.83
+[Epoch: 05] [Batch: 2151/3420] L: 0.28083  Avg L: 0.34595  mIoU: 45.84  |  FB-IoU: 63.78
+[Epoch: 05] [Batch: 2201/3420] L: 0.16667  Avg L: 0.34614  mIoU: 45.86  |  FB-IoU: 63.77
+[Epoch: 05] [Batch: 2251/3420] L: 0.37118  Avg L: 0.34668  mIoU: 45.81  |  FB-IoU: 63.72
+[Epoch: 05] [Batch: 2301/3420] L: 0.37784  Avg L: 0.34677  mIoU: 45.73  |  FB-IoU: 63.69
+[Epoch: 05] [Batch: 2351/3420] L: 0.28301  Avg L: 0.34666  mIoU: 45.71  |  FB-IoU: 63.67
+[Epoch: 05] [Batch: 2401/3420] L: 0.32366  Avg L: 0.34616  mIoU: 45.84  |  FB-IoU: 63.75
+[Epoch: 05] [Batch: 2451/3420] L: 0.26870  Avg L: 0.34613  mIoU: 45.79  |  FB-IoU: 63.73
+[Epoch: 05] [Batch: 2501/3420] L: 0.23859  Avg L: 0.34604  mIoU: 45.76  |  FB-IoU: 63.71
+[Epoch: 05] [Batch: 2551/3420] L: 0.40736  Avg L: 0.34653  mIoU: 45.70  |  FB-IoU: 63.65
+[Epoch: 05] [Batch: 2601/3420] L: 0.33330  Avg L: 0.34744  mIoU: 45.81  |  FB-IoU: 63.67
+[Epoch: 05] [Batch: 2651/3420] L: 0.44004  Avg L: 0.34751  mIoU: 45.69  |  FB-IoU: 63.63
+[Epoch: 05] [Batch: 2701/3420] L: 0.41968  Avg L: 0.34713  mIoU: 45.79  |  FB-IoU: 63.67
+[Epoch: 05] [Batch: 2751/3420] L: 0.22570  Avg L: 0.34776  mIoU: 45.75  |  FB-IoU: 63.64
+[Epoch: 05] [Batch: 2801/3420] L: 0.28114  Avg L: 0.34747  mIoU: 45.76  |  FB-IoU: 63.65
+[Epoch: 05] [Batch: 2851/3420] L: 0.30409  Avg L: 0.34766  mIoU: 45.74  |  FB-IoU: 63.65
+[Epoch: 05] [Batch: 2901/3420] L: 0.39621  Avg L: 0.34751  mIoU: 45.79  |  FB-IoU: 63.68
+[Epoch: 05] [Batch: 2951/3420] L: 0.40027  Avg L: 0.34756  mIoU: 45.79  |  FB-IoU: 63.69
+[Epoch: 05] [Batch: 3001/3420] L: 0.31788  Avg L: 0.34762  mIoU: 45.82  |  FB-IoU: 63.68
+[Epoch: 05] [Batch: 3051/3420] L: 0.37240  Avg L: 0.34724  mIoU: 45.86  |  FB-IoU: 63.73
+[Epoch: 05] [Batch: 3101/3420] L: 0.49086  Avg L: 0.34708  mIoU: 45.86  |  FB-IoU: 63.73
+[Epoch: 05] [Batch: 3151/3420] L: 0.23878  Avg L: 0.34674  mIoU: 45.85  |  FB-IoU: 63.76
+[Epoch: 05] [Batch: 3201/3420] L: 0.70055  Avg L: 0.34637  mIoU: 45.87  |  FB-IoU: 63.80
+[Epoch: 05] [Batch: 3251/3420] L: 0.28289  Avg L: 0.34636  mIoU: 45.86  |  FB-IoU: 63.81
+[Epoch: 05] [Batch: 3301/3420] L: 0.21486  Avg L: 0.34592  mIoU: 45.86  |  FB-IoU: 63.82
+[Epoch: 05] [Batch: 3351/3420] L: 0.41118  Avg L: 0.34581  mIoU: 45.86  |  FB-IoU: 63.83
+[Epoch: 05] [Batch: 3401/3420] L: 0.25513  Avg L: 0.34588  mIoU: 45.84  |  FB-IoU: 63.82
+
+*** Training [@Epoch 05] Avg L: 0.34569  mIoU: 45.84   FB-IoU: 63.82   ***
+
+[Epoch: 05] [Batch: 0001/0150] L: 0.79199  Avg L: 0.79199  mIoU: 22.36  |  FB-IoU: 32.18
+[Epoch: 05] [Batch: 0051/0150] L: 0.67694  Avg L: 0.72738  mIoU: 34.76  |  FB-IoU: 45.02
+[Epoch: 05] [Batch: 0101/0150] L: 0.85215  Avg L: 0.73079  mIoU: 34.18  |  FB-IoU: 44.55
+
+*** Validation [@Epoch 05] Avg L: 0.72763  mIoU: 34.53   FB-IoU: 44.93   ***
+
+[Epoch: 06] [Batch: 0001/3420] L: 0.26657  Avg L: 0.26657  mIoU: 11.38  |  FB-IoU: 68.68
+[Epoch: 06] [Batch: 0051/3420] L: 0.17232  Avg L: 0.32575  mIoU: 47.03  |  FB-IoU: 64.73
+[Epoch: 06] [Batch: 0101/3420] L: 0.53948  Avg L: 0.33391  mIoU: 47.07  |  FB-IoU: 65.29
+[Epoch: 06] [Batch: 0151/3420] L: 0.62548  Avg L: 0.33365  mIoU: 44.95  |  FB-IoU: 64.10
+[Epoch: 06] [Batch: 0201/3420] L: 0.32590  Avg L: 0.34303  mIoU: 45.00  |  FB-IoU: 63.51
+[Epoch: 06] [Batch: 0251/3420] L: 0.30916  Avg L: 0.34060  mIoU: 46.24  |  FB-IoU: 64.14
+[Epoch: 06] [Batch: 0301/3420] L: 0.32687  Avg L: 0.33784  mIoU: 46.55  |  FB-IoU: 64.34
+[Epoch: 06] [Batch: 0351/3420] L: 0.33832  Avg L: 0.34259  mIoU: 45.21  |  FB-IoU: 63.79
+[Epoch: 06] [Batch: 0401/3420] L: 0.28542  Avg L: 0.33852  mIoU: 45.96  |  FB-IoU: 64.15
+[Epoch: 06] [Batch: 0451/3420] L: 0.41138  Avg L: 0.33796  mIoU: 45.76  |  FB-IoU: 64.14
+[Epoch: 06] [Batch: 0501/3420] L: 0.30575  Avg L: 0.33606  mIoU: 45.93  |  FB-IoU: 64.33
+[Epoch: 06] [Batch: 0551/3420] L: 0.35480  Avg L: 0.33878  mIoU: 45.95  |  FB-IoU: 64.19
+[Epoch: 06] [Batch: 0601/3420] L: 0.18321  Avg L: 0.33730  mIoU: 46.09  |  FB-IoU: 64.17
+[Epoch: 06] [Batch: 0651/3420] L: 0.27669  Avg L: 0.33923  mIoU: 46.01  |  FB-IoU: 64.13
+[Epoch: 06] [Batch: 0701/3420] L: 0.41092  Avg L: 0.33788  mIoU: 46.51  |  FB-IoU: 64.44
+[Epoch: 06] [Batch: 0751/3420] L: 0.32798  Avg L: 0.33684  mIoU: 46.48  |  FB-IoU: 64.53
+[Epoch: 06] [Batch: 0801/3420] L: 0.35436  Avg L: 0.33688  mIoU: 46.67  |  FB-IoU: 64.62
+[Epoch: 06] [Batch: 0851/3420] L: 0.53905  Avg L: 0.33612  mIoU: 46.61  |  FB-IoU: 64.64
+[Epoch: 06] [Batch: 0901/3420] L: 0.49050  Avg L: 0.33771  mIoU: 46.33  |  FB-IoU: 64.42
+[Epoch: 06] [Batch: 0951/3420] L: 0.28527  Avg L: 0.33835  mIoU: 46.31  |  FB-IoU: 64.36
+[Epoch: 06] [Batch: 1001/3420] L: 0.14208  Avg L: 0.33699  mIoU: 46.46  |  FB-IoU: 64.50
+[Epoch: 06] [Batch: 1051/3420] L: 0.46275  Avg L: 0.33647  mIoU: 46.49  |  FB-IoU: 64.48
+[Epoch: 06] [Batch: 1101/3420] L: 0.25066  Avg L: 0.33520  mIoU: 46.65  |  FB-IoU: 64.57
+[Epoch: 06] [Batch: 1151/3420] L: 0.19120  Avg L: 0.33490  mIoU: 46.66  |  FB-IoU: 64.61
+[Epoch: 06] [Batch: 1201/3420] L: 0.29664  Avg L: 0.33517  mIoU: 46.48  |  FB-IoU: 64.57
+[Epoch: 06] [Batch: 1251/3420] L: 0.30938  Avg L: 0.33552  mIoU: 46.29  |  FB-IoU: 64.48
+[Epoch: 06] [Batch: 1301/3420] L: 0.26832  Avg L: 0.33620  mIoU: 46.18  |  FB-IoU: 64.43
+[Epoch: 06] [Batch: 1351/3420] L: 0.49496  Avg L: 0.33693  mIoU: 46.13  |  FB-IoU: 64.40
+[Epoch: 06] [Batch: 1401/3420] L: 0.30724  Avg L: 0.33678  mIoU: 46.25  |  FB-IoU: 64.47
+[Epoch: 06] [Batch: 1451/3420] L: 0.28362  Avg L: 0.33683  mIoU: 46.11  |  FB-IoU: 64.40
+[Epoch: 06] [Batch: 1501/3420] L: 0.27280  Avg L: 0.33640  mIoU: 46.10  |  FB-IoU: 64.45
+[Epoch: 06] [Batch: 1551/3420] L: 0.19358  Avg L: 0.33575  mIoU: 45.98  |  FB-IoU: 64.40
+[Epoch: 06] [Batch: 1601/3420] L: 0.30883  Avg L: 0.33570  mIoU: 45.91  |  FB-IoU: 64.39
+[Epoch: 06] [Batch: 1651/3420] L: 0.36625  Avg L: 0.33497  mIoU: 45.93  |  FB-IoU: 64.36
+[Epoch: 06] [Batch: 1701/3420] L: 0.23622  Avg L: 0.33438  mIoU: 46.03  |  FB-IoU: 64.39
+[Epoch: 06] [Batch: 1751/3420] L: 0.34082  Avg L: 0.33422  mIoU: 46.22  |  FB-IoU: 64.45
+[Epoch: 06] [Batch: 1801/3420] L: 0.40108  Avg L: 0.33503  mIoU: 46.11  |  FB-IoU: 64.37
+[Epoch: 06] [Batch: 1851/3420] L: 0.31437  Avg L: 0.33589  mIoU: 46.20  |  FB-IoU: 64.35
+[Epoch: 06] [Batch: 1901/3420] L: 0.27676  Avg L: 0.33619  mIoU: 46.30  |  FB-IoU: 64.41
+[Epoch: 06] [Batch: 1951/3420] L: 0.25445  Avg L: 0.33555  mIoU: 46.32  |  FB-IoU: 64.46
+[Epoch: 06] [Batch: 2001/3420] L: 0.39574  Avg L: 0.33516  mIoU: 46.33  |  FB-IoU: 64.48
+[Epoch: 06] [Batch: 2051/3420] L: 0.38761  Avg L: 0.33559  mIoU: 46.15  |  FB-IoU: 64.44
+[Epoch: 06] [Batch: 2101/3420] L: 0.35094  Avg L: 0.33615  mIoU: 46.11  |  FB-IoU: 64.37
+[Epoch: 06] [Batch: 2151/3420] L: 0.31662  Avg L: 0.33611  mIoU: 46.01  |  FB-IoU: 64.34
+[Epoch: 06] [Batch: 2201/3420] L: 0.16720  Avg L: 0.33649  mIoU: 46.02  |  FB-IoU: 64.33
+[Epoch: 06] [Batch: 2251/3420] L: 0.35191  Avg L: 0.33692  mIoU: 45.97  |  FB-IoU: 64.28
+[Epoch: 06] [Batch: 2301/3420] L: 0.35847  Avg L: 0.33694  mIoU: 45.93  |  FB-IoU: 64.26
+[Epoch: 06] [Batch: 2351/3420] L: 0.27882  Avg L: 0.33701  mIoU: 45.97  |  FB-IoU: 64.25
+[Epoch: 06] [Batch: 2401/3420] L: 0.31862  Avg L: 0.33664  mIoU: 46.10  |  FB-IoU: 64.33
+[Epoch: 06] [Batch: 2451/3420] L: 0.27379  Avg L: 0.33678  mIoU: 46.07  |  FB-IoU: 64.33
+[Epoch: 06] [Batch: 2501/3420] L: 0.21729  Avg L: 0.33723  mIoU: 46.03  |  FB-IoU: 64.31
+[Epoch: 06] [Batch: 2551/3420] L: 0.44945  Avg L: 0.33775  mIoU: 45.98  |  FB-IoU: 64.25
+[Epoch: 06] [Batch: 2601/3420] L: 0.30452  Avg L: 0.33837  mIoU: 46.14  |  FB-IoU: 64.31
+[Epoch: 06] [Batch: 2651/3420] L: 0.44885  Avg L: 0.33841  mIoU: 46.05  |  FB-IoU: 64.27
+[Epoch: 06] [Batch: 2701/3420] L: 0.40010  Avg L: 0.33793  mIoU: 46.14  |  FB-IoU: 64.31
+[Epoch: 06] [Batch: 2751/3420] L: 0.23544  Avg L: 0.33854  mIoU: 46.10  |  FB-IoU: 64.27
+[Epoch: 06] [Batch: 2801/3420] L: 0.29373  Avg L: 0.33864  mIoU: 46.01  |  FB-IoU: 64.23
+[Epoch: 06] [Batch: 2851/3420] L: 0.31331  Avg L: 0.33866  mIoU: 46.00  |  FB-IoU: 64.24
+[Epoch: 06] [Batch: 2901/3420] L: 0.39660  Avg L: 0.33845  mIoU: 46.06  |  FB-IoU: 64.27
+[Epoch: 06] [Batch: 2951/3420] L: 0.41367  Avg L: 0.33830  mIoU: 46.10  |  FB-IoU: 64.31
+[Epoch: 06] [Batch: 3001/3420] L: 0.31638  Avg L: 0.33839  mIoU: 46.13  |  FB-IoU: 64.29
+[Epoch: 06] [Batch: 3051/3420] L: 0.33774  Avg L: 0.33804  mIoU: 46.19  |  FB-IoU: 64.35
+[Epoch: 06] [Batch: 3101/3420] L: 0.54057  Avg L: 0.33781  mIoU: 46.24  |  FB-IoU: 64.38
+[Epoch: 06] [Batch: 3151/3420] L: 0.29167  Avg L: 0.33747  mIoU: 46.27  |  FB-IoU: 64.41
+[Epoch: 06] [Batch: 3201/3420] L: 0.80799  Avg L: 0.33717  mIoU: 46.27  |  FB-IoU: 64.44
+[Epoch: 06] [Batch: 3251/3420] L: 0.28385  Avg L: 0.33715  mIoU: 46.25  |  FB-IoU: 64.45
+[Epoch: 06] [Batch: 3301/3420] L: 0.21957  Avg L: 0.33667  mIoU: 46.25  |  FB-IoU: 64.47
+[Epoch: 06] [Batch: 3351/3420] L: 0.44818  Avg L: 0.33649  mIoU: 46.29  |  FB-IoU: 64.49
+[Epoch: 06] [Batch: 3401/3420] L: 0.21931  Avg L: 0.33666  mIoU: 46.29  |  FB-IoU: 64.49
+
+*** Training [@Epoch 06] Avg L: 0.33648  mIoU: 46.28   FB-IoU: 64.49   ***
+
+[Epoch: 06] [Batch: 0001/0150] L: 0.86125  Avg L: 0.86125  mIoU: 24.35  |  FB-IoU: 31.77
+[Epoch: 06] [Batch: 0051/0150] L: 0.68671  Avg L: 0.74476  mIoU: 36.18  |  FB-IoU: 45.89
+[Epoch: 06] [Batch: 0101/0150] L: 0.79639  Avg L: 0.74563  mIoU: 36.28  |  FB-IoU: 45.91
+
+*** Validation [@Epoch 06] Avg L: 0.74255  mIoU: 36.21   FB-IoU: 46.17   ***
+
+[Epoch: 07] [Batch: 0001/3420] L: 0.24261  Avg L: 0.24261  mIoU: 13.17  |  FB-IoU: 74.69
+[Epoch: 07] [Batch: 0051/3420] L: 0.17200  Avg L: 0.31231  mIoU: 48.57  |  FB-IoU: 66.09
+[Epoch: 07] [Batch: 0101/3420] L: 0.47563  Avg L: 0.31807  mIoU: 48.53  |  FB-IoU: 66.97
+[Epoch: 07] [Batch: 0151/3420] L: 0.60730  Avg L: 0.32334  mIoU: 46.48  |  FB-IoU: 65.29
+[Epoch: 07] [Batch: 0201/3420] L: 0.34648  Avg L: 0.33465  mIoU: 46.12  |  FB-IoU: 64.44
+[Epoch: 07] [Batch: 0251/3420] L: 0.33147  Avg L: 0.33143  mIoU: 46.80  |  FB-IoU: 64.89
+[Epoch: 07] [Batch: 0301/3420] L: 0.28229  Avg L: 0.32889  mIoU: 46.89  |  FB-IoU: 65.01
+[Epoch: 07] [Batch: 0351/3420] L: 0.32763  Avg L: 0.33139  mIoU: 45.82  |  FB-IoU: 64.60
+[Epoch: 07] [Batch: 0401/3420] L: 0.33322  Avg L: 0.32989  mIoU: 45.67  |  FB-IoU: 64.45
+[Epoch: 07] [Batch: 0451/3420] L: 0.41082  Avg L: 0.33005  mIoU: 45.85  |  FB-IoU: 64.51
+[Epoch: 07] [Batch: 0501/3420] L: 0.33393  Avg L: 0.32896  mIoU: 46.22  |  FB-IoU: 64.70
+[Epoch: 07] [Batch: 0551/3420] L: 0.35154  Avg L: 0.33233  mIoU: 45.88  |  FB-IoU: 64.30
+[Epoch: 07] [Batch: 0601/3420] L: 0.22185  Avg L: 0.33233  mIoU: 46.20  |  FB-IoU: 64.27
+[Epoch: 07] [Batch: 0651/3420] L: 0.25888  Avg L: 0.33498  mIoU: 46.20  |  FB-IoU: 64.21
+[Epoch: 07] [Batch: 0701/3420] L: 0.39372  Avg L: 0.33352  mIoU: 46.79  |  FB-IoU: 64.54
+[Epoch: 07] [Batch: 0751/3420] L: 0.32030  Avg L: 0.33215  mIoU: 46.97  |  FB-IoU: 64.74
+[Epoch: 07] [Batch: 0801/3420] L: 0.35846  Avg L: 0.33201  mIoU: 47.18  |  FB-IoU: 64.85
+[Epoch: 07] [Batch: 0851/3420] L: 0.55162  Avg L: 0.33105  mIoU: 47.17  |  FB-IoU: 64.91
+[Epoch: 07] [Batch: 0901/3420] L: 0.46787  Avg L: 0.33312  mIoU: 46.77  |  FB-IoU: 64.66
+[Epoch: 07] [Batch: 0951/3420] L: 0.29964  Avg L: 0.33344  mIoU: 46.79  |  FB-IoU: 64.64
+[Epoch: 07] [Batch: 1001/3420] L: 0.14544  Avg L: 0.33179  mIoU: 46.97  |  FB-IoU: 64.80
+[Epoch: 07] [Batch: 1051/3420] L: 0.46604  Avg L: 0.33119  mIoU: 46.99  |  FB-IoU: 64.77
+[Epoch: 07] [Batch: 1101/3420] L: 0.26184  Avg L: 0.33026  mIoU: 47.02  |  FB-IoU: 64.80
+[Epoch: 07] [Batch: 1151/3420] L: 0.18350  Avg L: 0.33015  mIoU: 46.84  |  FB-IoU: 64.75
+[Epoch: 07] [Batch: 1201/3420] L: 0.26967  Avg L: 0.33053  mIoU: 46.83  |  FB-IoU: 64.77
+[Epoch: 07] [Batch: 1251/3420] L: 0.29681  Avg L: 0.33098  mIoU: 46.73  |  FB-IoU: 64.67
+[Epoch: 07] [Batch: 1301/3420] L: 0.26592  Avg L: 0.33209  mIoU: 46.57  |  FB-IoU: 64.57
+[Epoch: 07] [Batch: 1351/3420] L: 0.47340  Avg L: 0.33260  mIoU: 46.60  |  FB-IoU: 64.55
+[Epoch: 07] [Batch: 1401/3420] L: 0.31856  Avg L: 0.33255  mIoU: 46.77  |  FB-IoU: 64.65
+[Epoch: 07] [Batch: 1451/3420] L: 0.24800  Avg L: 0.33233  mIoU: 46.87  |  FB-IoU: 64.68
+[Epoch: 07] [Batch: 1501/3420] L: 0.24545  Avg L: 0.33199  mIoU: 46.95  |  FB-IoU: 64.77
+[Epoch: 07] [Batch: 1551/3420] L: 0.16171  Avg L: 0.33140  mIoU: 46.87  |  FB-IoU: 64.75
+[Epoch: 07] [Batch: 1601/3420] L: 0.36148  Avg L: 0.33138  mIoU: 46.81  |  FB-IoU: 64.74
+[Epoch: 07] [Batch: 1651/3420] L: 0.34415  Avg L: 0.33058  mIoU: 46.82  |  FB-IoU: 64.73
+[Epoch: 07] [Batch: 1701/3420] L: 0.22171  Avg L: 0.32998  mIoU: 46.96  |  FB-IoU: 64.79
+[Epoch: 07] [Batch: 1751/3420] L: 0.31561  Avg L: 0.32975  mIoU: 47.21  |  FB-IoU: 64.89
+[Epoch: 07] [Batch: 1801/3420] L: 0.36045  Avg L: 0.33052  mIoU: 47.22  |  FB-IoU: 64.87
+[Epoch: 07] [Batch: 1851/3420] L: 0.29000  Avg L: 0.33108  mIoU: 47.26  |  FB-IoU: 64.83
+[Epoch: 07] [Batch: 1901/3420] L: 0.26437  Avg L: 0.33105  mIoU: 47.41  |  FB-IoU: 64.92
+[Epoch: 07] [Batch: 1951/3420] L: 0.22697  Avg L: 0.33024  mIoU: 47.45  |  FB-IoU: 64.99
+[Epoch: 07] [Batch: 2001/3420] L: 0.36026  Avg L: 0.32968  mIoU: 47.45  |  FB-IoU: 65.02
+[Epoch: 07] [Batch: 2051/3420] L: 0.43552  Avg L: 0.32972  mIoU: 47.21  |  FB-IoU: 64.95
+[Epoch: 07] [Batch: 2101/3420] L: 0.36402  Avg L: 0.33006  mIoU: 47.11  |  FB-IoU: 64.86
+[Epoch: 07] [Batch: 2151/3420] L: 0.38220  Avg L: 0.33018  mIoU: 46.93  |  FB-IoU: 64.80
+[Epoch: 07] [Batch: 2201/3420] L: 0.16257  Avg L: 0.33069  mIoU: 46.94  |  FB-IoU: 64.76
+[Epoch: 07] [Batch: 2251/3420] L: 0.33781  Avg L: 0.33124  mIoU: 46.98  |  FB-IoU: 64.74
+[Epoch: 07] [Batch: 2301/3420] L: 0.37060  Avg L: 0.33139  mIoU: 46.95  |  FB-IoU: 64.71
+[Epoch: 07] [Batch: 2351/3420] L: 0.33346  Avg L: 0.33161  mIoU: 46.97  |  FB-IoU: 64.71
+[Epoch: 07] [Batch: 2401/3420] L: 0.30238  Avg L: 0.33131  mIoU: 47.09  |  FB-IoU: 64.78
+[Epoch: 07] [Batch: 2451/3420] L: 0.31729  Avg L: 0.33157  mIoU: 47.06  |  FB-IoU: 64.77
+[Epoch: 07] [Batch: 2501/3420] L: 0.22073  Avg L: 0.33173  mIoU: 47.03  |  FB-IoU: 64.75
+[Epoch: 07] [Batch: 2551/3420] L: 0.42777  Avg L: 0.33209  mIoU: 46.95  |  FB-IoU: 64.68
+[Epoch: 07] [Batch: 2601/3420] L: 0.30326  Avg L: 0.33309  mIoU: 47.04  |  FB-IoU: 64.71
+[Epoch: 07] [Batch: 2651/3420] L: 0.45620  Avg L: 0.33322  mIoU: 46.92  |  FB-IoU: 64.66
+[Epoch: 07] [Batch: 2701/3420] L: 0.40170  Avg L: 0.33291  mIoU: 47.05  |  FB-IoU: 64.69
+[Epoch: 07] [Batch: 2751/3420] L: 0.20654  Avg L: 0.33349  mIoU: 47.08  |  FB-IoU: 64.68
+[Epoch: 07] [Batch: 2801/3420] L: 0.27696  Avg L: 0.33344  mIoU: 47.05  |  FB-IoU: 64.67
+[Epoch: 07] [Batch: 2851/3420] L: 0.31244  Avg L: 0.33368  mIoU: 47.00  |  FB-IoU: 64.66
+[Epoch: 07] [Batch: 2901/3420] L: 0.44226  Avg L: 0.33349  mIoU: 47.09  |  FB-IoU: 64.71
+[Epoch: 07] [Batch: 2951/3420] L: 0.40482  Avg L: 0.33360  mIoU: 47.10  |  FB-IoU: 64.73
+[Epoch: 07] [Batch: 3001/3420] L: 0.34589  Avg L: 0.33361  mIoU: 47.15  |  FB-IoU: 64.73
+[Epoch: 07] [Batch: 3051/3420] L: 0.42654  Avg L: 0.33345  mIoU: 47.23  |  FB-IoU: 64.78
+[Epoch: 07] [Batch: 3101/3420] L: 0.50437  Avg L: 0.33329  mIoU: 47.28  |  FB-IoU: 64.79
+[Epoch: 07] [Batch: 3151/3420] L: 0.22409  Avg L: 0.33289  mIoU: 47.33  |  FB-IoU: 64.85
+[Epoch: 07] [Batch: 3201/3420] L: 0.74219  Avg L: 0.33263  mIoU: 47.35  |  FB-IoU: 64.89
+[Epoch: 07] [Batch: 3251/3420] L: 0.30830  Avg L: 0.33277  mIoU: 47.28  |  FB-IoU: 64.86
+[Epoch: 07] [Batch: 3301/3420] L: 0.24792  Avg L: 0.33233  mIoU: 47.30  |  FB-IoU: 64.89
+[Epoch: 07] [Batch: 3351/3420] L: 0.37704  Avg L: 0.33207  mIoU: 47.35  |  FB-IoU: 64.93
+[Epoch: 07] [Batch: 3401/3420] L: 0.19704  Avg L: 0.33230  mIoU: 47.32  |  FB-IoU: 64.91
+
+*** Training [@Epoch 07] Avg L: 0.33225  mIoU: 47.27   FB-IoU: 64.89   ***
+
+[Epoch: 07] [Batch: 0001/0150] L: 0.78864  Avg L: 0.78864  mIoU: 28.98  |  FB-IoU: 36.49
+[Epoch: 07] [Batch: 0051/0150] L: 0.66687  Avg L: 0.70822  mIoU: 39.85  |  FB-IoU: 46.01
+[Epoch: 07] [Batch: 0101/0150] L: 0.74872  Avg L: 0.71568  mIoU: 39.53  |  FB-IoU: 45.95
+
+*** Validation [@Epoch 07] Avg L: 0.71684  mIoU: 39.35   FB-IoU: 46.23   ***
+
+Model saved @7 w/ val. mIoU: 39.35.
+
+[Epoch: 08] [Batch: 0001/3420] L: 0.27702  Avg L: 0.27702  mIoU: 12.58  |  FB-IoU: 72.94
+[Epoch: 08] [Batch: 0051/3420] L: 0.19417  Avg L: 0.31846  mIoU: 48.32  |  FB-IoU: 65.65
+[Epoch: 08] [Batch: 0101/3420] L: 0.42480  Avg L: 0.31803  mIoU: 50.38  |  FB-IoU: 67.59
+[Epoch: 08] [Batch: 0151/3420] L: 0.52712  Avg L: 0.32470  mIoU: 48.29  |  FB-IoU: 65.69
+[Epoch: 08] [Batch: 0201/3420] L: 0.34337  Avg L: 0.33252  mIoU: 47.11  |  FB-IoU: 64.41
+[Epoch: 08] [Batch: 0251/3420] L: 0.32885  Avg L: 0.33078  mIoU: 48.78  |  FB-IoU: 65.12
+[Epoch: 08] [Batch: 0301/3420] L: 0.38296  Avg L: 0.32713  mIoU: 48.92  |  FB-IoU: 65.26
+[Epoch: 08] [Batch: 0351/3420] L: 0.34715  Avg L: 0.33179  mIoU: 48.09  |  FB-IoU: 64.93
+[Epoch: 08] [Batch: 0401/3420] L: 0.30396  Avg L: 0.32776  mIoU: 49.16  |  FB-IoU: 65.53
+[Epoch: 08] [Batch: 0451/3420] L: 0.32539  Avg L: 0.32655  mIoU: 49.08  |  FB-IoU: 65.61
+[Epoch: 08] [Batch: 0501/3420] L: 0.33264  Avg L: 0.32560  mIoU: 49.44  |  FB-IoU: 65.82
+[Epoch: 08] [Batch: 0551/3420] L: 0.45574  Avg L: 0.32893  mIoU: 49.25  |  FB-IoU: 65.53
+[Epoch: 08] [Batch: 0601/3420] L: 0.17428  Avg L: 0.32812  mIoU: 48.95  |  FB-IoU: 65.38
+[Epoch: 08] [Batch: 0651/3420] L: 0.23725  Avg L: 0.32955  mIoU: 48.97  |  FB-IoU: 65.41
+[Epoch: 08] [Batch: 0701/3420] L: 0.44632  Avg L: 0.32825  mIoU: 49.45  |  FB-IoU: 65.68
+[Epoch: 08] [Batch: 0751/3420] L: 0.27318  Avg L: 0.32685  mIoU: 49.53  |  FB-IoU: 65.80
+[Epoch: 08] [Batch: 0801/3420] L: 0.33635  Avg L: 0.32709  mIoU: 49.68  |  FB-IoU: 65.85
+[Epoch: 08] [Batch: 0851/3420] L: 0.52212  Avg L: 0.32680  mIoU: 49.49  |  FB-IoU: 65.75
+[Epoch: 08] [Batch: 0901/3420] L: 0.50318  Avg L: 0.32981  mIoU: 48.55  |  FB-IoU: 65.21
+[Epoch: 08] [Batch: 0951/3420] L: 0.28081  Avg L: 0.32975  mIoU: 48.48  |  FB-IoU: 65.21
+[Epoch: 08] [Batch: 1001/3420] L: 0.16730  Avg L: 0.32943  mIoU: 48.26  |  FB-IoU: 65.13
+[Epoch: 08] [Batch: 1051/3420] L: 0.39040  Avg L: 0.32833  mIoU: 48.38  |  FB-IoU: 65.18
+[Epoch: 08] [Batch: 1101/3420] L: 0.24171  Avg L: 0.32731  mIoU: 48.44  |  FB-IoU: 65.24
+[Epoch: 08] [Batch: 1151/3420] L: 0.20040  Avg L: 0.32669  mIoU: 48.53  |  FB-IoU: 65.34
+[Epoch: 08] [Batch: 1201/3420] L: 0.29566  Avg L: 0.32636  mIoU: 48.41  |  FB-IoU: 65.34
+[Epoch: 08] [Batch: 1251/3420] L: 0.25234  Avg L: 0.32646  mIoU: 48.40  |  FB-IoU: 65.30
+[Epoch: 08] [Batch: 1301/3420] L: 0.28788  Avg L: 0.32776  mIoU: 48.01  |  FB-IoU: 65.11
+[Epoch: 08] [Batch: 1351/3420] L: 0.42853  Avg L: 0.32856  mIoU: 47.89  |  FB-IoU: 65.05
+[Epoch: 08] [Batch: 1401/3420] L: 0.33767  Avg L: 0.32863  mIoU: 47.98  |  FB-IoU: 65.14
+[Epoch: 08] [Batch: 1451/3420] L: 0.26377  Avg L: 0.32858  mIoU: 47.94  |  FB-IoU: 65.12
+[Epoch: 08] [Batch: 1501/3420] L: 0.27494  Avg L: 0.32786  mIoU: 48.09  |  FB-IoU: 65.26
+[Epoch: 08] [Batch: 1551/3420] L: 0.16924  Avg L: 0.32740  mIoU: 47.86  |  FB-IoU: 65.15
+[Epoch: 08] [Batch: 1601/3420] L: 0.36678  Avg L: 0.32745  mIoU: 47.71  |  FB-IoU: 65.08
+[Epoch: 08] [Batch: 1651/3420] L: 0.33366  Avg L: 0.32657  mIoU: 47.86  |  FB-IoU: 65.13
+[Epoch: 08] [Batch: 1701/3420] L: 0.22431  Avg L: 0.32596  mIoU: 48.04  |  FB-IoU: 65.19
+[Epoch: 08] [Batch: 1751/3420] L: 0.33279  Avg L: 0.32563  mIoU: 48.33  |  FB-IoU: 65.29
+[Epoch: 08] [Batch: 1801/3420] L: 0.34532  Avg L: 0.32636  mIoU: 48.38  |  FB-IoU: 65.30
+[Epoch: 08] [Batch: 1851/3420] L: 0.27412  Avg L: 0.32732  mIoU: 48.36  |  FB-IoU: 65.22
+[Epoch: 08] [Batch: 1901/3420] L: 0.23387  Avg L: 0.32763  mIoU: 48.39  |  FB-IoU: 65.23
+[Epoch: 08] [Batch: 1951/3420] L: 0.23769  Avg L: 0.32696  mIoU: 48.40  |  FB-IoU: 65.27
+[Epoch: 08] [Batch: 2001/3420] L: 0.33458  Avg L: 0.32673  mIoU: 48.43  |  FB-IoU: 65.29
+[Epoch: 08] [Batch: 2051/3420] L: 0.36775  Avg L: 0.32696  mIoU: 48.25  |  FB-IoU: 65.25
+[Epoch: 08] [Batch: 2101/3420] L: 0.39293  Avg L: 0.32719  mIoU: 48.19  |  FB-IoU: 65.20
+[Epoch: 08] [Batch: 2151/3420] L: 0.39708  Avg L: 0.32732  mIoU: 48.01  |  FB-IoU: 65.14
+[Epoch: 08] [Batch: 2201/3420] L: 0.16330  Avg L: 0.32757  mIoU: 48.10  |  FB-IoU: 65.16
+[Epoch: 08] [Batch: 2251/3420] L: 0.36422  Avg L: 0.32798  mIoU: 48.10  |  FB-IoU: 65.13
+[Epoch: 08] [Batch: 2301/3420] L: 0.39674  Avg L: 0.32790  mIoU: 48.06  |  FB-IoU: 65.10
+[Epoch: 08] [Batch: 2351/3420] L: 0.29890  Avg L: 0.32806  mIoU: 48.21  |  FB-IoU: 65.13
+[Epoch: 08] [Batch: 2401/3420] L: 0.29245  Avg L: 0.32750  mIoU: 48.36  |  FB-IoU: 65.23
+[Epoch: 08] [Batch: 2451/3420] L: 0.28134  Avg L: 0.32756  mIoU: 48.28  |  FB-IoU: 65.21
+[Epoch: 08] [Batch: 2501/3420] L: 0.19071  Avg L: 0.32782  mIoU: 48.25  |  FB-IoU: 65.17
+[Epoch: 08] [Batch: 2551/3420] L: 0.38103  Avg L: 0.32823  mIoU: 48.11  |  FB-IoU: 65.09
+[Epoch: 08] [Batch: 2601/3420] L: 0.27698  Avg L: 0.32893  mIoU: 48.20  |  FB-IoU: 65.12
+[Epoch: 08] [Batch: 2651/3420] L: 0.46034  Avg L: 0.32915  mIoU: 48.08  |  FB-IoU: 65.06
+[Epoch: 08] [Batch: 2701/3420] L: 0.36599  Avg L: 0.32856  mIoU: 48.20  |  FB-IoU: 65.12
+[Epoch: 08] [Batch: 2751/3420] L: 0.22663  Avg L: 0.32888  mIoU: 48.15  |  FB-IoU: 65.09
+[Epoch: 08] [Batch: 2801/3420] L: 0.29025  Avg L: 0.32860  mIoU: 48.20  |  FB-IoU: 65.13
+[Epoch: 08] [Batch: 2851/3420] L: 0.28339  Avg L: 0.32874  mIoU: 48.22  |  FB-IoU: 65.15
+[Epoch: 08] [Batch: 2901/3420] L: 0.39897  Avg L: 0.32853  mIoU: 48.27  |  FB-IoU: 65.19
+[Epoch: 08] [Batch: 2951/3420] L: 0.40438  Avg L: 0.32870  mIoU: 48.27  |  FB-IoU: 65.18
+[Epoch: 08] [Batch: 3001/3420] L: 0.33540  Avg L: 0.32879  mIoU: 48.29  |  FB-IoU: 65.17
+[Epoch: 08] [Batch: 3051/3420] L: 0.37857  Avg L: 0.32857  mIoU: 48.37  |  FB-IoU: 65.22
+[Epoch: 08] [Batch: 3101/3420] L: 0.47143  Avg L: 0.32844  mIoU: 48.43  |  FB-IoU: 65.24
+[Epoch: 08] [Batch: 3151/3420] L: 0.24322  Avg L: 0.32833  mIoU: 48.40  |  FB-IoU: 65.25
+[Epoch: 08] [Batch: 3201/3420] L: 0.61957  Avg L: 0.32817  mIoU: 48.36  |  FB-IoU: 65.25
+[Epoch: 08] [Batch: 3251/3420] L: 0.30918  Avg L: 0.32832  mIoU: 48.29  |  FB-IoU: 65.23
+[Epoch: 08] [Batch: 3301/3420] L: 0.24614  Avg L: 0.32801  mIoU: 48.31  |  FB-IoU: 65.25
+[Epoch: 08] [Batch: 3351/3420] L: 0.35396  Avg L: 0.32786  mIoU: 48.36  |  FB-IoU: 65.29
+[Epoch: 08] [Batch: 3401/3420] L: 0.20711  Avg L: 0.32792  mIoU: 48.35  |  FB-IoU: 65.29
+
+*** Training [@Epoch 08] Avg L: 0.32778  mIoU: 48.33   FB-IoU: 65.29   ***
+
+[Epoch: 08] [Batch: 0001/0150] L: 0.82786  Avg L: 0.82786  mIoU: 26.85  |  FB-IoU: 38.66
+[Epoch: 08] [Batch: 0051/0150] L: 0.64667  Avg L: 0.70990  mIoU: 40.18  |  FB-IoU: 47.14
+[Epoch: 08] [Batch: 0101/0150] L: 0.84689  Avg L: 0.71620  mIoU: 39.75  |  FB-IoU: 47.03
+
+*** Validation [@Epoch 08] Avg L: 0.71537  mIoU: 39.59   FB-IoU: 47.30   ***
+
+Model saved @8 w/ val. mIoU: 39.59.
+
+[Epoch: 09] [Batch: 0001/3420] L: 0.27960  Avg L: 0.27960  mIoU: 12.22  |  FB-IoU: 71.38
+[Epoch: 09] [Batch: 0051/3420] L: 0.20345  Avg L: 0.30962  mIoU: 49.08  |  FB-IoU: 66.26
+[Epoch: 09] [Batch: 0101/3420] L: 0.52120  Avg L: 0.31495  mIoU: 49.94  |  FB-IoU: 67.41
+[Epoch: 09] [Batch: 0151/3420] L: 0.57122  Avg L: 0.32707  mIoU: 46.49  |  FB-IoU: 64.78
+[Epoch: 09] [Batch: 0201/3420] L: 0.31749  Avg L: 0.33435  mIoU: 46.00  |  FB-IoU: 64.23
+[Epoch: 09] [Batch: 0251/3420] L: 0.26794  Avg L: 0.32944  mIoU: 47.97  |  FB-IoU: 65.15
+[Epoch: 09] [Batch: 0301/3420] L: 0.27736  Avg L: 0.32533  mIoU: 48.49  |  FB-IoU: 65.42
+[Epoch: 09] [Batch: 0351/3420] L: 0.31575  Avg L: 0.32735  mIoU: 48.02  |  FB-IoU: 65.41
+[Epoch: 09] [Batch: 0401/3420] L: 0.29442  Avg L: 0.32326  mIoU: 49.03  |  FB-IoU: 65.98
+[Epoch: 09] [Batch: 0451/3420] L: 0.29129  Avg L: 0.32182  mIoU: 49.06  |  FB-IoU: 66.09
+[Epoch: 09] [Batch: 0501/3420] L: 0.39815  Avg L: 0.32093  mIoU: 49.57  |  FB-IoU: 66.29
+[Epoch: 09] [Batch: 0551/3420] L: 0.31215  Avg L: 0.32381  mIoU: 49.55  |  FB-IoU: 66.12
+[Epoch: 09] [Batch: 0601/3420] L: 0.15768  Avg L: 0.32287  mIoU: 49.29  |  FB-IoU: 65.94
+[Epoch: 09] [Batch: 0651/3420] L: 0.21909  Avg L: 0.32403  mIoU: 49.29  |  FB-IoU: 65.97
+[Epoch: 09] [Batch: 0701/3420] L: 0.38973  Avg L: 0.32230  mIoU: 49.79  |  FB-IoU: 66.25
+[Epoch: 09] [Batch: 0751/3420] L: 0.29011  Avg L: 0.32089  mIoU: 49.89  |  FB-IoU: 66.43
+[Epoch: 09] [Batch: 0801/3420] L: 0.36246  Avg L: 0.32088  mIoU: 50.09  |  FB-IoU: 66.56
+[Epoch: 09] [Batch: 0851/3420] L: 0.48029  Avg L: 0.32064  mIoU: 50.05  |  FB-IoU: 66.53
+[Epoch: 09] [Batch: 0901/3420] L: 0.44516  Avg L: 0.32270  mIoU: 49.71  |  FB-IoU: 66.28
+[Epoch: 09] [Batch: 0951/3420] L: 0.30109  Avg L: 0.32314  mIoU: 49.74  |  FB-IoU: 66.23
+[Epoch: 09] [Batch: 1001/3420] L: 0.13845  Avg L: 0.32235  mIoU: 49.81  |  FB-IoU: 66.30
+[Epoch: 09] [Batch: 1051/3420] L: 0.33819  Avg L: 0.32159  mIoU: 49.99  |  FB-IoU: 66.34
+[Epoch: 09] [Batch: 1101/3420] L: 0.23140  Avg L: 0.32049  mIoU: 50.16  |  FB-IoU: 66.41
+[Epoch: 09] [Batch: 1151/3420] L: 0.19141  Avg L: 0.32005  mIoU: 50.31  |  FB-IoU: 66.52
+[Epoch: 09] [Batch: 1201/3420] L: 0.26854  Avg L: 0.32076  mIoU: 50.28  |  FB-IoU: 66.48
+[Epoch: 09] [Batch: 1251/3420] L: 0.29880  Avg L: 0.32092  mIoU: 50.20  |  FB-IoU: 66.44
+[Epoch: 09] [Batch: 1301/3420] L: 0.23130  Avg L: 0.32194  mIoU: 49.89  |  FB-IoU: 66.25
+[Epoch: 09] [Batch: 1351/3420] L: 0.43465  Avg L: 0.32321  mIoU: 49.60  |  FB-IoU: 66.07
+[Epoch: 09] [Batch: 1401/3420] L: 0.31875  Avg L: 0.32321  mIoU: 49.68  |  FB-IoU: 66.13
+[Epoch: 09] [Batch: 1451/3420] L: 0.25206  Avg L: 0.32350  mIoU: 49.66  |  FB-IoU: 66.10
+[Epoch: 09] [Batch: 1501/3420] L: 0.27788  Avg L: 0.32289  mIoU: 49.71  |  FB-IoU: 66.18
+[Epoch: 09] [Batch: 1551/3420] L: 0.16648  Avg L: 0.32209  mIoU: 49.70  |  FB-IoU: 66.18
+[Epoch: 09] [Batch: 1601/3420] L: 0.34468  Avg L: 0.32190  mIoU: 49.66  |  FB-IoU: 66.17
+[Epoch: 09] [Batch: 1651/3420] L: 0.32543  Avg L: 0.32092  mIoU: 49.82  |  FB-IoU: 66.24
+[Epoch: 09] [Batch: 1701/3420] L: 0.22387  Avg L: 0.32025  mIoU: 50.00  |  FB-IoU: 66.33
+[Epoch: 09] [Batch: 1751/3420] L: 0.31996  Avg L: 0.32001  mIoU: 50.22  |  FB-IoU: 66.41
+[Epoch: 09] [Batch: 1801/3420] L: 0.29383  Avg L: 0.32051  mIoU: 50.22  |  FB-IoU: 66.39
+[Epoch: 09] [Batch: 1851/3420] L: 0.31564  Avg L: 0.32196  mIoU: 50.02  |  FB-IoU: 66.20
+[Epoch: 09] [Batch: 1901/3420] L: 0.22317  Avg L: 0.32223  mIoU: 50.13  |  FB-IoU: 66.24
+[Epoch: 09] [Batch: 1951/3420] L: 0.21634  Avg L: 0.32136  mIoU: 50.21  |  FB-IoU: 66.33
+[Epoch: 09] [Batch: 2001/3420] L: 0.39005  Avg L: 0.32133  mIoU: 50.18  |  FB-IoU: 66.32
+[Epoch: 09] [Batch: 2051/3420] L: 0.39304  Avg L: 0.32148  mIoU: 49.94  |  FB-IoU: 66.26
+[Epoch: 09] [Batch: 2101/3420] L: 0.37097  Avg L: 0.32143  mIoU: 49.87  |  FB-IoU: 66.21
+[Epoch: 09] [Batch: 2151/3420] L: 0.35502  Avg L: 0.32155  mIoU: 49.72  |  FB-IoU: 66.15
+[Epoch: 09] [Batch: 2201/3420] L: 0.15560  Avg L: 0.32187  mIoU: 49.70  |  FB-IoU: 66.14
+[Epoch: 09] [Batch: 2251/3420] L: 0.35312  Avg L: 0.32237  mIoU: 49.60  |  FB-IoU: 66.06
+[Epoch: 09] [Batch: 2301/3420] L: 0.37284  Avg L: 0.32241  mIoU: 49.53  |  FB-IoU: 66.01
+[Epoch: 09] [Batch: 2351/3420] L: 0.27948  Avg L: 0.32268  mIoU: 49.59  |  FB-IoU: 66.01
+[Epoch: 09] [Batch: 2401/3420] L: 0.30520  Avg L: 0.32209  mIoU: 49.73  |  FB-IoU: 66.10
+[Epoch: 09] [Batch: 2451/3420] L: 0.34787  Avg L: 0.32239  mIoU: 49.72  |  FB-IoU: 66.10
+[Epoch: 09] [Batch: 2501/3420] L: 0.22596  Avg L: 0.32275  mIoU: 49.67  |  FB-IoU: 66.06
+[Epoch: 09] [Batch: 2551/3420] L: 0.43353  Avg L: 0.32302  mIoU: 49.56  |  FB-IoU: 66.00
+[Epoch: 09] [Batch: 2601/3420] L: 0.30682  Avg L: 0.32367  mIoU: 49.70  |  FB-IoU: 66.05
+[Epoch: 09] [Batch: 2651/3420] L: 0.51276  Avg L: 0.32381  mIoU: 49.59  |  FB-IoU: 66.02
+[Epoch: 09] [Batch: 2701/3420] L: 0.39609  Avg L: 0.32375  mIoU: 49.65  |  FB-IoU: 66.01
+[Epoch: 09] [Batch: 2751/3420] L: 0.20476  Avg L: 0.32409  mIoU: 49.69  |  FB-IoU: 66.01
+[Epoch: 09] [Batch: 2801/3420] L: 0.27167  Avg L: 0.32394  mIoU: 49.68  |  FB-IoU: 66.03
+[Epoch: 09] [Batch: 2851/3420] L: 0.25704  Avg L: 0.32407  mIoU: 49.74  |  FB-IoU: 66.06
+[Epoch: 09] [Batch: 2901/3420] L: 0.41214  Avg L: 0.32392  mIoU: 49.77  |  FB-IoU: 66.10
+[Epoch: 09] [Batch: 2951/3420] L: 0.40279  Avg L: 0.32370  mIoU: 49.82  |  FB-IoU: 66.14
+[Epoch: 09] [Batch: 3001/3420] L: 0.35171  Avg L: 0.32376  mIoU: 49.82  |  FB-IoU: 66.13
+[Epoch: 09] [Batch: 3051/3420] L: 0.38108  Avg L: 0.32357  mIoU: 49.88  |  FB-IoU: 66.16
+[Epoch: 09] [Batch: 3101/3420] L: 0.46767  Avg L: 0.32346  mIoU: 49.93  |  FB-IoU: 66.18
+[Epoch: 09] [Batch: 3151/3420] L: 0.24737  Avg L: 0.32319  mIoU: 49.93  |  FB-IoU: 66.22
+[Epoch: 09] [Batch: 3201/3420] L: 0.51577  Avg L: 0.32291  mIoU: 49.91  |  FB-IoU: 66.25
+[Epoch: 09] [Batch: 3251/3420] L: 0.32286  Avg L: 0.32279  mIoU: 49.89  |  FB-IoU: 66.26
+[Epoch: 09] [Batch: 3301/3420] L: 0.26286  Avg L: 0.32238  mIoU: 49.87  |  FB-IoU: 66.27
+[Epoch: 09] [Batch: 3351/3420] L: 0.39247  Avg L: 0.32212  mIoU: 49.92  |  FB-IoU: 66.31
+[Epoch: 09] [Batch: 3401/3420] L: 0.17218  Avg L: 0.32236  mIoU: 49.86  |  FB-IoU: 66.26
+
+*** Training [@Epoch 09] Avg L: 0.32220  mIoU: 49.82   FB-IoU: 66.26   ***
+
+[Epoch: 09] [Batch: 0001/0150] L: 0.71267  Avg L: 0.71267  mIoU: 30.29  |  FB-IoU: 42.17
+[Epoch: 09] [Batch: 0051/0150] L: 0.68629  Avg L: 0.70941  mIoU: 40.44  |  FB-IoU: 46.83
+[Epoch: 09] [Batch: 0101/0150] L: 0.80674  Avg L: 0.70465  mIoU: 40.56  |  FB-IoU: 47.11
+
+*** Validation [@Epoch 09] Avg L: 0.70853  mIoU: 40.39   FB-IoU: 47.17   ***
+
+Model saved @9 w/ val. mIoU: 40.39.
+
+[Epoch: 10] [Batch: 0001/3420] L: 0.26351  Avg L: 0.26351  mIoU: 13.22  |  FB-IoU: 75.54
+[Epoch: 10] [Batch: 0051/3420] L: 0.22719  Avg L: 0.30572  mIoU: 48.14  |  FB-IoU: 66.53
+[Epoch: 10] [Batch: 0101/3420] L: 0.48817  Avg L: 0.30844  mIoU: 49.85  |  FB-IoU: 68.31
+[Epoch: 10] [Batch: 0151/3420] L: 0.45256  Avg L: 0.31042  mIoU: 48.65  |  FB-IoU: 66.95
+[Epoch: 10] [Batch: 0201/3420] L: 0.32376  Avg L: 0.31734  mIoU: 47.67  |  FB-IoU: 66.25
+[Epoch: 10] [Batch: 0251/3420] L: 0.32409  Avg L: 0.31529  mIoU: 49.54  |  FB-IoU: 66.82
+[Epoch: 10] [Batch: 0301/3420] L: 0.22679  Avg L: 0.31145  mIoU: 49.74  |  FB-IoU: 66.91
+[Epoch: 10] [Batch: 0351/3420] L: 0.33954  Avg L: 0.31397  mIoU: 49.02  |  FB-IoU: 66.64
+[Epoch: 10] [Batch: 0401/3420] L: 0.33533  Avg L: 0.31224  mIoU: 49.72  |  FB-IoU: 67.03
+[Epoch: 10] [Batch: 0451/3420] L: 0.28606  Avg L: 0.31123  mIoU: 49.98  |  FB-IoU: 67.14
+[Epoch: 10] [Batch: 0501/3420] L: 0.39409  Avg L: 0.31094  mIoU: 50.42  |  FB-IoU: 67.23
+[Epoch: 10] [Batch: 0551/3420] L: 0.30665  Avg L: 0.31372  mIoU: 50.53  |  FB-IoU: 67.08
+[Epoch: 10] [Batch: 0601/3420] L: 0.16637  Avg L: 0.31313  mIoU: 50.59  |  FB-IoU: 67.01
+[Epoch: 10] [Batch: 0651/3420] L: 0.22048  Avg L: 0.31389  mIoU: 50.83  |  FB-IoU: 67.11
+[Epoch: 10] [Batch: 0701/3420] L: 0.36135  Avg L: 0.31273  mIoU: 51.15  |  FB-IoU: 67.30
+[Epoch: 10] [Batch: 0751/3420] L: 0.29638  Avg L: 0.31169  mIoU: 51.22  |  FB-IoU: 67.44
+[Epoch: 10] [Batch: 0801/3420] L: 0.40794  Avg L: 0.31174  mIoU: 51.45  |  FB-IoU: 67.55
+[Epoch: 10] [Batch: 0851/3420] L: 0.48691  Avg L: 0.31136  mIoU: 51.45  |  FB-IoU: 67.55
+[Epoch: 10] [Batch: 0901/3420] L: 0.40323  Avg L: 0.31346  mIoU: 51.18  |  FB-IoU: 67.30
+[Epoch: 10] [Batch: 0951/3420] L: 0.26773  Avg L: 0.31395  mIoU: 51.13  |  FB-IoU: 67.21
+[Epoch: 10] [Batch: 1001/3420] L: 0.13997  Avg L: 0.31350  mIoU: 51.17  |  FB-IoU: 67.24
+[Epoch: 10] [Batch: 1051/3420] L: 0.31459  Avg L: 0.31264  mIoU: 51.32  |  FB-IoU: 67.29
+[Epoch: 10] [Batch: 1101/3420] L: 0.21108  Avg L: 0.31221  mIoU: 51.24  |  FB-IoU: 67.26
+[Epoch: 10] [Batch: 1151/3420] L: 0.19448  Avg L: 0.31152  mIoU: 51.41  |  FB-IoU: 67.39
+[Epoch: 10] [Batch: 1201/3420] L: 0.28441  Avg L: 0.31197  mIoU: 51.28  |  FB-IoU: 67.35
+[Epoch: 10] [Batch: 1251/3420] L: 0.31079  Avg L: 0.31212  mIoU: 51.21  |  FB-IoU: 67.31
+[Epoch: 10] [Batch: 1301/3420] L: 0.25744  Avg L: 0.31332  mIoU: 50.96  |  FB-IoU: 67.14
+[Epoch: 10] [Batch: 1351/3420] L: 0.46759  Avg L: 0.31457  mIoU: 50.73  |  FB-IoU: 66.99
+[Epoch: 10] [Batch: 1401/3420] L: 0.31726  Avg L: 0.31506  mIoU: 50.68  |  FB-IoU: 66.98
+[Epoch: 10] [Batch: 1451/3420] L: 0.25137  Avg L: 0.31579  mIoU: 50.55  |  FB-IoU: 66.87
+[Epoch: 10] [Batch: 1501/3420] L: 0.24084  Avg L: 0.31531  mIoU: 50.57  |  FB-IoU: 66.91
+[Epoch: 10] [Batch: 1551/3420] L: 0.14762  Avg L: 0.31507  mIoU: 50.43  |  FB-IoU: 66.83
+[Epoch: 10] [Batch: 1601/3420] L: 0.37063  Avg L: 0.31527  mIoU: 50.30  |  FB-IoU: 66.76
+[Epoch: 10] [Batch: 1651/3420] L: 0.36932  Avg L: 0.31486  mIoU: 50.27  |  FB-IoU: 66.73
+[Epoch: 10] [Batch: 1701/3420] L: 0.22989  Avg L: 0.31446  mIoU: 50.42  |  FB-IoU: 66.77
+[Epoch: 10] [Batch: 1751/3420] L: 0.34984  Avg L: 0.31440  mIoU: 50.61  |  FB-IoU: 66.82
+[Epoch: 10] [Batch: 1801/3420] L: 0.32815  Avg L: 0.31489  mIoU: 50.56  |  FB-IoU: 66.78
+[Epoch: 10] [Batch: 1851/3420] L: 0.31955  Avg L: 0.31594  mIoU: 50.60  |  FB-IoU: 66.69
+[Epoch: 10] [Batch: 1901/3420] L: 0.23752  Avg L: 0.31614  mIoU: 50.72  |  FB-IoU: 66.75
+[Epoch: 10] [Batch: 1951/3420] L: 0.24737  Avg L: 0.31543  mIoU: 50.77  |  FB-IoU: 66.81
+[Epoch: 10] [Batch: 2001/3420] L: 0.39912  Avg L: 0.31539  mIoU: 50.75  |  FB-IoU: 66.81
+[Epoch: 10] [Batch: 2051/3420] L: 0.37252  Avg L: 0.31594  mIoU: 50.44  |  FB-IoU: 66.69
+[Epoch: 10] [Batch: 2101/3420] L: 0.35328  Avg L: 0.31610  mIoU: 50.34  |  FB-IoU: 66.61
+[Epoch: 10] [Batch: 2151/3420] L: 0.34521  Avg L: 0.31599  mIoU: 50.24  |  FB-IoU: 66.59
+[Epoch: 10] [Batch: 2201/3420] L: 0.18482  Avg L: 0.31646  mIoU: 50.16  |  FB-IoU: 66.53
+[Epoch: 10] [Batch: 2251/3420] L: 0.37399  Avg L: 0.31692  mIoU: 50.07  |  FB-IoU: 66.45
+[Epoch: 10] [Batch: 2301/3420] L: 0.34812  Avg L: 0.31685  mIoU: 50.08  |  FB-IoU: 66.47
+[Epoch: 10] [Batch: 2351/3420] L: 0.21291  Avg L: 0.31717  mIoU: 50.15  |  FB-IoU: 66.46
+[Epoch: 10] [Batch: 2401/3420] L: 0.31017  Avg L: 0.31663  mIoU: 50.30  |  FB-IoU: 66.55
+[Epoch: 10] [Batch: 2451/3420] L: 0.24650  Avg L: 0.31667  mIoU: 50.27  |  FB-IoU: 66.53
+[Epoch: 10] [Batch: 2501/3420] L: 0.18537  Avg L: 0.31691  mIoU: 50.25  |  FB-IoU: 66.52
+[Epoch: 10] [Batch: 2551/3420] L: 0.44644  Avg L: 0.31723  mIoU: 50.20  |  FB-IoU: 66.47
+[Epoch: 10] [Batch: 2601/3420] L: 0.28795  Avg L: 0.31766  mIoU: 50.36  |  FB-IoU: 66.53
+[Epoch: 10] [Batch: 2651/3420] L: 0.46252  Avg L: 0.31786  mIoU: 50.23  |  FB-IoU: 66.48
+[Epoch: 10] [Batch: 2701/3420] L: 0.39188  Avg L: 0.31765  mIoU: 50.36  |  FB-IoU: 66.52
+[Epoch: 10] [Batch: 2751/3420] L: 0.18859  Avg L: 0.31786  mIoU: 50.38  |  FB-IoU: 66.53
+[Epoch: 10] [Batch: 2801/3420] L: 0.26998  Avg L: 0.31761  mIoU: 50.40  |  FB-IoU: 66.56
+[Epoch: 10] [Batch: 2851/3420] L: 0.25429  Avg L: 0.31776  mIoU: 50.46  |  FB-IoU: 66.59
+[Epoch: 10] [Batch: 2901/3420] L: 0.37922  Avg L: 0.31754  mIoU: 50.49  |  FB-IoU: 66.63
+[Epoch: 10] [Batch: 2951/3420] L: 0.37322  Avg L: 0.31744  mIoU: 50.55  |  FB-IoU: 66.65
+[Epoch: 10] [Batch: 3001/3420] L: 0.37290  Avg L: 0.31756  mIoU: 50.54  |  FB-IoU: 66.62
+[Epoch: 10] [Batch: 3051/3420] L: 0.34569  Avg L: 0.31737  mIoU: 50.60  |  FB-IoU: 66.67
+[Epoch: 10] [Batch: 3101/3420] L: 0.42790  Avg L: 0.31725  mIoU: 50.65  |  FB-IoU: 66.69
+[Epoch: 10] [Batch: 3151/3420] L: 0.25662  Avg L: 0.31699  mIoU: 50.64  |  FB-IoU: 66.73
+[Epoch: 10] [Batch: 3201/3420] L: 0.55234  Avg L: 0.31683  mIoU: 50.61  |  FB-IoU: 66.75
+[Epoch: 10] [Batch: 3251/3420] L: 0.28968  Avg L: 0.31671  mIoU: 50.63  |  FB-IoU: 66.77
+[Epoch: 10] [Batch: 3301/3420] L: 0.18874  Avg L: 0.31636  mIoU: 50.62  |  FB-IoU: 66.79
+[Epoch: 10] [Batch: 3351/3420] L: 0.37460  Avg L: 0.31618  mIoU: 50.64  |  FB-IoU: 66.81
+[Epoch: 10] [Batch: 3401/3420] L: 0.17447  Avg L: 0.31625  mIoU: 50.62  |  FB-IoU: 66.80
+
+*** Training [@Epoch 10] Avg L: 0.31611  mIoU: 50.60   FB-IoU: 66.80   ***
+
+[Epoch: 10] [Batch: 0001/0150] L: 0.77551  Avg L: 0.77551  mIoU: 27.54  |  FB-IoU: 38.16
+[Epoch: 10] [Batch: 0051/0150] L: 0.63590  Avg L: 0.73821  mIoU: 39.61  |  FB-IoU: 45.95
+[Epoch: 10] [Batch: 0101/0150] L: 0.82841  Avg L: 0.72948  mIoU: 39.94  |  FB-IoU: 46.84
+
+*** Validation [@Epoch 10] Avg L: 0.72879  mIoU: 39.72   FB-IoU: 46.88   ***
+
+[Epoch: 11] [Batch: 0001/3420] L: 0.27880  Avg L: 0.27880  mIoU: 12.43  |  FB-IoU: 72.33
+[Epoch: 11] [Batch: 0051/3420] L: 0.13422  Avg L: 0.29408  mIoU: 51.35  |  FB-IoU: 68.00
+[Epoch: 11] [Batch: 0101/3420] L: 0.50730  Avg L: 0.29621  mIoU: 51.62  |  FB-IoU: 69.52
+[Epoch: 11] [Batch: 0151/3420] L: 0.47087  Avg L: 0.30280  mIoU: 50.14  |  FB-IoU: 67.85
+[Epoch: 11] [Batch: 0201/3420] L: 0.28849  Avg L: 0.31056  mIoU: 49.58  |  FB-IoU: 67.37
+[Epoch: 11] [Batch: 0251/3420] L: 0.33385  Avg L: 0.30881  mIoU: 50.99  |  FB-IoU: 67.79
+[Epoch: 11] [Batch: 0301/3420] L: 0.25892  Avg L: 0.30652  mIoU: 51.31  |  FB-IoU: 67.87
+[Epoch: 11] [Batch: 0351/3420] L: 0.31407  Avg L: 0.30836  mIoU: 50.19  |  FB-IoU: 67.43
+[Epoch: 11] [Batch: 0401/3420] L: 0.33505  Avg L: 0.30767  mIoU: 50.79  |  FB-IoU: 67.63
+[Epoch: 11] [Batch: 0451/3420] L: 0.33426  Avg L: 0.30745  mIoU: 50.95  |  FB-IoU: 67.67
+[Epoch: 11] [Batch: 0501/3420] L: 0.35025  Avg L: 0.30746  mIoU: 50.92  |  FB-IoU: 67.61
+[Epoch: 11] [Batch: 0551/3420] L: 0.29590  Avg L: 0.31029  mIoU: 50.82  |  FB-IoU: 67.41
+[Epoch: 11] [Batch: 0601/3420] L: 0.17703  Avg L: 0.31013  mIoU: 50.85  |  FB-IoU: 67.30
+[Epoch: 11] [Batch: 0651/3420] L: 0.22131  Avg L: 0.31095  mIoU: 50.99  |  FB-IoU: 67.38
+[Epoch: 11] [Batch: 0701/3420] L: 0.38101  Avg L: 0.31055  mIoU: 51.20  |  FB-IoU: 67.52
+[Epoch: 11] [Batch: 0751/3420] L: 0.28184  Avg L: 0.30947  mIoU: 51.25  |  FB-IoU: 67.65
+[Epoch: 11] [Batch: 0801/3420] L: 0.39171  Avg L: 0.30974  mIoU: 51.43  |  FB-IoU: 67.69
+[Epoch: 11] [Batch: 0851/3420] L: 0.63385  Avg L: 0.30955  mIoU: 51.40  |  FB-IoU: 67.69
+[Epoch: 11] [Batch: 0901/3420] L: 0.44034  Avg L: 0.31163  mIoU: 51.18  |  FB-IoU: 67.47
+[Epoch: 11] [Batch: 0951/3420] L: 0.30061  Avg L: 0.31173  mIoU: 51.27  |  FB-IoU: 67.45
+[Epoch: 11] [Batch: 1001/3420] L: 0.12592  Avg L: 0.31094  mIoU: 51.35  |  FB-IoU: 67.48
+[Epoch: 11] [Batch: 1051/3420] L: 0.39516  Avg L: 0.31059  mIoU: 51.50  |  FB-IoU: 67.51
+[Epoch: 11] [Batch: 1101/3420] L: 0.21490  Avg L: 0.30968  mIoU: 51.66  |  FB-IoU: 67.58
+[Epoch: 11] [Batch: 1151/3420] L: 0.18103  Avg L: 0.30908  mIoU: 51.86  |  FB-IoU: 67.69
+[Epoch: 11] [Batch: 1201/3420] L: 0.24060  Avg L: 0.30912  mIoU: 51.88  |  FB-IoU: 67.70
+[Epoch: 11] [Batch: 1251/3420] L: 0.28167  Avg L: 0.30897  mIoU: 51.87  |  FB-IoU: 67.72
+[Epoch: 11] [Batch: 1301/3420] L: 0.21168  Avg L: 0.30998  mIoU: 51.61  |  FB-IoU: 67.60
+[Epoch: 11] [Batch: 1351/3420] L: 0.45820  Avg L: 0.31046  mIoU: 51.55  |  FB-IoU: 67.56
+[Epoch: 11] [Batch: 1401/3420] L: 0.27552  Avg L: 0.31062  mIoU: 51.52  |  FB-IoU: 67.56
+[Epoch: 11] [Batch: 1451/3420] L: 0.29044  Avg L: 0.31131  mIoU: 51.48  |  FB-IoU: 67.50
+[Epoch: 11] [Batch: 1501/3420] L: 0.23187  Avg L: 0.31070  mIoU: 51.58  |  FB-IoU: 67.60
+[Epoch: 11] [Batch: 1551/3420] L: 0.13762  Avg L: 0.31050  mIoU: 51.44  |  FB-IoU: 67.53
+[Epoch: 11] [Batch: 1601/3420] L: 0.38657  Avg L: 0.31045  mIoU: 51.38  |  FB-IoU: 67.50
+[Epoch: 11] [Batch: 1651/3420] L: 0.36565  Avg L: 0.30987  mIoU: 51.36  |  FB-IoU: 67.49
+[Epoch: 11] [Batch: 1701/3420] L: 0.21249  Avg L: 0.30936  mIoU: 51.50  |  FB-IoU: 67.55
+[Epoch: 11] [Batch: 1751/3420] L: 0.32768  Avg L: 0.30928  mIoU: 51.69  |  FB-IoU: 67.60
+[Epoch: 11] [Batch: 1801/3420] L: 0.36067  Avg L: 0.30987  mIoU: 51.65  |  FB-IoU: 67.56
+[Epoch: 11] [Batch: 1851/3420] L: 0.26093  Avg L: 0.31097  mIoU: 51.60  |  FB-IoU: 67.45
+[Epoch: 11] [Batch: 1901/3420] L: 0.27470  Avg L: 0.31107  mIoU: 51.65  |  FB-IoU: 67.48
+[Epoch: 11] [Batch: 1951/3420] L: 0.21302  Avg L: 0.31044  mIoU: 51.68  |  FB-IoU: 67.52
+[Epoch: 11] [Batch: 2001/3420] L: 0.36862  Avg L: 0.31027  mIoU: 51.63  |  FB-IoU: 67.52
+[Epoch: 11] [Batch: 2051/3420] L: 0.34873  Avg L: 0.31070  mIoU: 51.30  |  FB-IoU: 67.41
+[Epoch: 11] [Batch: 2101/3420] L: 0.39963  Avg L: 0.31083  mIoU: 51.23  |  FB-IoU: 67.36
+[Epoch: 11] [Batch: 2151/3420] L: 0.31124  Avg L: 0.31081  mIoU: 51.07  |  FB-IoU: 67.31
+[Epoch: 11] [Batch: 2201/3420] L: 0.17316  Avg L: 0.31115  mIoU: 51.06  |  FB-IoU: 67.29
+[Epoch: 11] [Batch: 2251/3420] L: 0.34801  Avg L: 0.31155  mIoU: 51.04  |  FB-IoU: 67.25
+[Epoch: 11] [Batch: 2301/3420] L: 0.36806  Avg L: 0.31144  mIoU: 51.02  |  FB-IoU: 67.25
+[Epoch: 11] [Batch: 2351/3420] L: 0.23571  Avg L: 0.31162  mIoU: 51.08  |  FB-IoU: 67.26
+[Epoch: 11] [Batch: 2401/3420] L: 0.28165  Avg L: 0.31121  mIoU: 51.16  |  FB-IoU: 67.33
+[Epoch: 11] [Batch: 2451/3420] L: 0.27030  Avg L: 0.31116  mIoU: 51.08  |  FB-IoU: 67.29
+[Epoch: 11] [Batch: 2501/3420] L: 0.19853  Avg L: 0.31147  mIoU: 51.03  |  FB-IoU: 67.27
+[Epoch: 11] [Batch: 2551/3420] L: 0.44427  Avg L: 0.31204  mIoU: 50.94  |  FB-IoU: 67.21
+[Epoch: 11] [Batch: 2601/3420] L: 0.26184  Avg L: 0.31257  mIoU: 51.07  |  FB-IoU: 67.25
+[Epoch: 11] [Batch: 2651/3420] L: 0.44426  Avg L: 0.31276  mIoU: 50.94  |  FB-IoU: 67.20
+[Epoch: 11] [Batch: 2701/3420] L: 0.42565  Avg L: 0.31265  mIoU: 51.04  |  FB-IoU: 67.22
+[Epoch: 11] [Batch: 2751/3420] L: 0.20204  Avg L: 0.31288  mIoU: 51.09  |  FB-IoU: 67.23
+[Epoch: 11] [Batch: 2801/3420] L: 0.29679  Avg L: 0.31265  mIoU: 51.12  |  FB-IoU: 67.26
+[Epoch: 11] [Batch: 2851/3420] L: 0.26975  Avg L: 0.31277  mIoU: 51.18  |  FB-IoU: 67.30
+[Epoch: 11] [Batch: 2901/3420] L: 0.41653  Avg L: 0.31256  mIoU: 51.25  |  FB-IoU: 67.35
+[Epoch: 11] [Batch: 2951/3420] L: 0.40585  Avg L: 0.31259  mIoU: 51.28  |  FB-IoU: 67.36
+[Epoch: 11] [Batch: 3001/3420] L: 0.33969  Avg L: 0.31270  mIoU: 51.27  |  FB-IoU: 67.33
+[Epoch: 11] [Batch: 3051/3420] L: 0.33818  Avg L: 0.31252  mIoU: 51.31  |  FB-IoU: 67.37
+[Epoch: 11] [Batch: 3101/3420] L: 0.55769  Avg L: 0.31245  mIoU: 51.33  |  FB-IoU: 67.38
+[Epoch: 11] [Batch: 3151/3420] L: 0.25281  Avg L: 0.31223  mIoU: 51.32  |  FB-IoU: 67.40
+[Epoch: 11] [Batch: 3201/3420] L: 0.54635  Avg L: 0.31208  mIoU: 51.27  |  FB-IoU: 67.41
+[Epoch: 11] [Batch: 3251/3420] L: 0.33824  Avg L: 0.31207  mIoU: 51.28  |  FB-IoU: 67.43
+[Epoch: 11] [Batch: 3301/3420] L: 0.18230  Avg L: 0.31181  mIoU: 51.27  |  FB-IoU: 67.43
+[Epoch: 11] [Batch: 3351/3420] L: 0.35584  Avg L: 0.31161  mIoU: 51.30  |  FB-IoU: 67.45
+[Epoch: 11] [Batch: 3401/3420] L: 0.15107  Avg L: 0.31163  mIoU: 51.28  |  FB-IoU: 67.45
+
+*** Training [@Epoch 11] Avg L: 0.31148  mIoU: 51.24   FB-IoU: 67.44   ***
+
+[Epoch: 11] [Batch: 0001/0150] L: 0.71989  Avg L: 0.71989  mIoU: 30.20  |  FB-IoU: 40.19
+[Epoch: 11] [Batch: 0051/0150] L: 0.66261  Avg L: 0.72177  mIoU: 39.83  |  FB-IoU: 46.83
+[Epoch: 11] [Batch: 0101/0150] L: 0.86821  Avg L: 0.71774  mIoU: 39.56  |  FB-IoU: 46.97
+
+*** Validation [@Epoch 11] Avg L: 0.71610  mIoU: 39.51   FB-IoU: 46.98   ***
+
+[Epoch: 12] [Batch: 0001/3420] L: 0.27598  Avg L: 0.27598  mIoU: 11.36  |  FB-IoU: 69.09
+[Epoch: 12] [Batch: 0051/3420] L: 0.14391  Avg L: 0.29550  mIoU: 49.75  |  FB-IoU: 67.89
+[Epoch: 12] [Batch: 0101/3420] L: 0.55022  Avg L: 0.30390  mIoU: 49.12  |  FB-IoU: 68.66
+[Epoch: 12] [Batch: 0151/3420] L: 0.44590  Avg L: 0.30809  mIoU: 48.43  |  FB-IoU: 67.29
+[Epoch: 12] [Batch: 0201/3420] L: 0.31024  Avg L: 0.31861  mIoU: 48.03  |  FB-IoU: 66.74
+[Epoch: 12] [Batch: 0251/3420] L: 0.38260  Avg L: 0.31478  mIoU: 49.62  |  FB-IoU: 67.28
+[Epoch: 12] [Batch: 0301/3420] L: 0.22334  Avg L: 0.31051  mIoU: 49.95  |  FB-IoU: 67.50
+[Epoch: 12] [Batch: 0351/3420] L: 0.30363  Avg L: 0.31193  mIoU: 49.22  |  FB-IoU: 67.25
+[Epoch: 12] [Batch: 0401/3420] L: 0.38720  Avg L: 0.31009  mIoU: 50.02  |  FB-IoU: 67.67
+[Epoch: 12] [Batch: 0451/3420] L: 0.25941  Avg L: 0.30873  mIoU: 50.35  |  FB-IoU: 67.82
+[Epoch: 12] [Batch: 0501/3420] L: 0.28753  Avg L: 0.30684  mIoU: 50.67  |  FB-IoU: 68.05
+[Epoch: 12] [Batch: 0551/3420] L: 0.30930  Avg L: 0.30900  mIoU: 50.83  |  FB-IoU: 67.95
+[Epoch: 12] [Batch: 0601/3420] L: 0.15369  Avg L: 0.30868  mIoU: 50.74  |  FB-IoU: 67.78
+[Epoch: 12] [Batch: 0651/3420] L: 0.23042  Avg L: 0.30959  mIoU: 50.79  |  FB-IoU: 67.79
+[Epoch: 12] [Batch: 0701/3420] L: 0.33478  Avg L: 0.30853  mIoU: 51.10  |  FB-IoU: 67.95
+[Epoch: 12] [Batch: 0751/3420] L: 0.26246  Avg L: 0.30697  mIoU: 51.29  |  FB-IoU: 68.14
+[Epoch: 12] [Batch: 0801/3420] L: 0.35236  Avg L: 0.30757  mIoU: 51.44  |  FB-IoU: 68.15
+[Epoch: 12] [Batch: 0851/3420] L: 0.46041  Avg L: 0.30717  mIoU: 51.46  |  FB-IoU: 68.12
+[Epoch: 12] [Batch: 0901/3420] L: 0.42325  Avg L: 0.30857  mIoU: 51.36  |  FB-IoU: 67.93
+[Epoch: 12] [Batch: 0951/3420] L: 0.29098  Avg L: 0.30879  mIoU: 51.48  |  FB-IoU: 67.87
+[Epoch: 12] [Batch: 1001/3420] L: 0.13134  Avg L: 0.30838  mIoU: 51.48  |  FB-IoU: 67.89
+[Epoch: 12] [Batch: 1051/3420] L: 0.33269  Avg L: 0.30786  mIoU: 51.54  |  FB-IoU: 67.91
+[Epoch: 12] [Batch: 1101/3420] L: 0.19864  Avg L: 0.30739  mIoU: 51.61  |  FB-IoU: 67.90
+[Epoch: 12] [Batch: 1151/3420] L: 0.18088  Avg L: 0.30627  mIoU: 51.93  |  FB-IoU: 68.07
+[Epoch: 12] [Batch: 1201/3420] L: 0.25686  Avg L: 0.30687  mIoU: 51.78  |  FB-IoU: 68.00
+[Epoch: 12] [Batch: 1251/3420] L: 0.29587  Avg L: 0.30648  mIoU: 51.81  |  FB-IoU: 68.03
+[Epoch: 12] [Batch: 1301/3420] L: 0.24870  Avg L: 0.30709  mIoU: 51.65  |  FB-IoU: 67.98
+[Epoch: 12] [Batch: 1351/3420] L: 0.43284  Avg L: 0.30810  mIoU: 51.58  |  FB-IoU: 67.89
+[Epoch: 12] [Batch: 1401/3420] L: 0.31797  Avg L: 0.30811  mIoU: 51.62  |  FB-IoU: 67.94
+[Epoch: 12] [Batch: 1451/3420] L: 0.27518  Avg L: 0.30847  mIoU: 51.53  |  FB-IoU: 67.87
+[Epoch: 12] [Batch: 1501/3420] L: 0.23967  Avg L: 0.30783  mIoU: 51.55  |  FB-IoU: 67.95
+[Epoch: 12] [Batch: 1551/3420] L: 0.14812  Avg L: 0.30719  mIoU: 51.48  |  FB-IoU: 67.91
+[Epoch: 12] [Batch: 1601/3420] L: 0.42361  Avg L: 0.30722  mIoU: 51.45  |  FB-IoU: 67.90
+[Epoch: 12] [Batch: 1651/3420] L: 0.35424  Avg L: 0.30658  mIoU: 51.45  |  FB-IoU: 67.88
+[Epoch: 12] [Batch: 1701/3420] L: 0.20153  Avg L: 0.30600  mIoU: 51.59  |  FB-IoU: 67.94
+[Epoch: 12] [Batch: 1751/3420] L: 0.27760  Avg L: 0.30575  mIoU: 51.85  |  FB-IoU: 68.02
+[Epoch: 12] [Batch: 1801/3420] L: 0.29012  Avg L: 0.30622  mIoU: 51.84  |  FB-IoU: 67.98
+[Epoch: 12] [Batch: 1851/3420] L: 0.29786  Avg L: 0.30743  mIoU: 51.78  |  FB-IoU: 67.87
+[Epoch: 12] [Batch: 1901/3420] L: 0.21418  Avg L: 0.30736  mIoU: 51.93  |  FB-IoU: 67.94
+[Epoch: 12] [Batch: 1951/3420] L: 0.20555  Avg L: 0.30674  mIoU: 51.93  |  FB-IoU: 67.97
+[Epoch: 12] [Batch: 2001/3420] L: 0.38522  Avg L: 0.30657  mIoU: 51.93  |  FB-IoU: 67.97
+[Epoch: 12] [Batch: 2051/3420] L: 0.35123  Avg L: 0.30689  mIoU: 51.68  |  FB-IoU: 67.88
+[Epoch: 12] [Batch: 2101/3420] L: 0.41747  Avg L: 0.30695  mIoU: 51.66  |  FB-IoU: 67.85
+[Epoch: 12] [Batch: 2151/3420] L: 0.28238  Avg L: 0.30702  mIoU: 51.51  |  FB-IoU: 67.79
+[Epoch: 12] [Batch: 2201/3420] L: 0.14990  Avg L: 0.30726  mIoU: 51.55  |  FB-IoU: 67.79
+[Epoch: 12] [Batch: 2251/3420] L: 0.31992  Avg L: 0.30789  mIoU: 51.49  |  FB-IoU: 67.73
+[Epoch: 12] [Batch: 2301/3420] L: 0.33273  Avg L: 0.30779  mIoU: 51.48  |  FB-IoU: 67.74
+[Epoch: 12] [Batch: 2351/3420] L: 0.25627  Avg L: 0.30804  mIoU: 51.58  |  FB-IoU: 67.74
+[Epoch: 12] [Batch: 2401/3420] L: 0.29454  Avg L: 0.30762  mIoU: 51.68  |  FB-IoU: 67.83
+[Epoch: 12] [Batch: 2451/3420] L: 0.27015  Avg L: 0.30756  mIoU: 51.59  |  FB-IoU: 67.79
+[Epoch: 12] [Batch: 2501/3420] L: 0.19299  Avg L: 0.30808  mIoU: 51.52  |  FB-IoU: 67.74
+[Epoch: 12] [Batch: 2551/3420] L: 0.34987  Avg L: 0.30850  mIoU: 51.48  |  FB-IoU: 67.69
+[Epoch: 12] [Batch: 2601/3420] L: 0.26784  Avg L: 0.30918  mIoU: 51.63  |  FB-IoU: 67.73
+[Epoch: 12] [Batch: 2651/3420] L: 0.48430  Avg L: 0.30936  mIoU: 51.50  |  FB-IoU: 67.69
+[Epoch: 12] [Batch: 2701/3420] L: 0.37386  Avg L: 0.30913  mIoU: 51.62  |  FB-IoU: 67.72
+[Epoch: 12] [Batch: 2751/3420] L: 0.19837  Avg L: 0.30928  mIoU: 51.68  |  FB-IoU: 67.73
+[Epoch: 12] [Batch: 2801/3420] L: 0.27924  Avg L: 0.30908  mIoU: 51.71  |  FB-IoU: 67.77
+[Epoch: 12] [Batch: 2851/3420] L: 0.24787  Avg L: 0.30916  mIoU: 51.75  |  FB-IoU: 67.79
+[Epoch: 12] [Batch: 2901/3420] L: 0.39571  Avg L: 0.30910  mIoU: 51.77  |  FB-IoU: 67.81
+[Epoch: 12] [Batch: 2951/3420] L: 0.37517  Avg L: 0.30883  mIoU: 51.83  |  FB-IoU: 67.85
+[Epoch: 12] [Batch: 3001/3420] L: 0.36679  Avg L: 0.30873  mIoU: 51.85  |  FB-IoU: 67.85
+[Epoch: 12] [Batch: 3051/3420] L: 0.37691  Avg L: 0.30853  mIoU: 51.90  |  FB-IoU: 67.88
+[Epoch: 12] [Batch: 3101/3420] L: 0.62114  Avg L: 0.30846  mIoU: 51.94  |  FB-IoU: 67.88
+[Epoch: 12] [Batch: 3151/3420] L: 0.46214  Avg L: 0.30828  mIoU: 51.90  |  FB-IoU: 67.90
+[Epoch: 12] [Batch: 3201/3420] L: 0.50940  Avg L: 0.30812  mIoU: 51.88  |  FB-IoU: 67.92
+[Epoch: 12] [Batch: 3251/3420] L: 0.31425  Avg L: 0.30820  mIoU: 51.82  |  FB-IoU: 67.91
+[Epoch: 12] [Batch: 3301/3420] L: 0.20309  Avg L: 0.30793  mIoU: 51.82  |  FB-IoU: 67.91
+[Epoch: 12] [Batch: 3351/3420] L: 0.33624  Avg L: 0.30763  mIoU: 51.85  |  FB-IoU: 67.94
+[Epoch: 12] [Batch: 3401/3420] L: 0.16178  Avg L: 0.30764  mIoU: 51.83  |  FB-IoU: 67.93
+
+*** Training [@Epoch 12] Avg L: 0.30747  mIoU: 51.80   FB-IoU: 67.93   ***
+
+[Epoch: 12] [Batch: 0001/0150] L: 0.71056  Avg L: 0.71056  mIoU: 27.88  |  FB-IoU: 40.87
+[Epoch: 12] [Batch: 0051/0150] L: 0.68773  Avg L: 0.70900  mIoU: 39.39  |  FB-IoU: 46.14
+[Epoch: 12] [Batch: 0101/0150] L: 0.79377  Avg L: 0.71165  mIoU: 39.13  |  FB-IoU: 46.38
+
+*** Validation [@Epoch 12] Avg L: 0.71188  mIoU: 39.11   FB-IoU: 46.54   ***
+
+[Epoch: 13] [Batch: 0001/3420] L: 0.27237  Avg L: 0.27237  mIoU: 10.97  |  FB-IoU: 68.36
+[Epoch: 13] [Batch: 0051/3420] L: 0.17637  Avg L: 0.29264  mIoU: 49.78  |  FB-IoU: 68.43
+[Epoch: 13] [Batch: 0101/3420] L: 0.52420  Avg L: 0.29798  mIoU: 49.28  |  FB-IoU: 69.10
+[Epoch: 13] [Batch: 0151/3420] L: 0.40550  Avg L: 0.30025  mIoU: 49.17  |  FB-IoU: 67.95
+[Epoch: 13] [Batch: 0201/3420] L: 0.33731  Avg L: 0.30754  mIoU: 48.21  |  FB-IoU: 67.22

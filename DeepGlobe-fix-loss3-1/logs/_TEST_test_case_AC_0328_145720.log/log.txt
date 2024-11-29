@@ -1,0 +1,172 @@
+
+:=========== Cross-Domain Few-shot Seg. with CuMNet ===========
+|             datapath: F:\WHT\CDFSSDataSet\Target domains
+|            benchmark: deepglobe               
+|              logpath: ./test_case_AC.log      
+|                  bsz: 4                       
+|              nworker: 0                       
+|                 load: logs/test_case_AC.log/best_model.pt
+|                 fold: 0                       
+|                nshot: 1                       
+|             backbone: resnet50                
+:================================================
+
+Backbone # param.: 23561205
+Learnable # param.: 2613738
+Total # param.: 26174943
+# available GPUs: 1
+[Batch: 0001/0150] mIoU: 30.29  |  FB-IoU: 42.17
+[Batch: 0002/0150] mIoU: 48.81  |  FB-IoU: 52.35
+[Batch: 0003/0150] mIoU: 45.93  |  FB-IoU: 55.65
+[Batch: 0004/0150] mIoU: 41.46  |  FB-IoU: 52.14
+[Batch: 0005/0150] mIoU: 45.59  |  FB-IoU: 51.67
+[Batch: 0006/0150] mIoU: 42.33  |  FB-IoU: 51.57
+[Batch: 0007/0150] mIoU: 42.60  |  FB-IoU: 51.31
+[Batch: 0008/0150] mIoU: 40.70  |  FB-IoU: 50.37
+[Batch: 0009/0150] mIoU: 40.19  |  FB-IoU: 49.57
+[Batch: 0010/0150] mIoU: 39.91  |  FB-IoU: 48.62
+[Batch: 0011/0150] mIoU: 36.76  |  FB-IoU: 47.57
+[Batch: 0012/0150] mIoU: 37.97  |  FB-IoU: 48.18
+[Batch: 0013/0150] mIoU: 38.92  |  FB-IoU: 48.69
+[Batch: 0014/0150] mIoU: 39.54  |  FB-IoU: 50.02
+[Batch: 0015/0150] mIoU: 40.04  |  FB-IoU: 49.49
+[Batch: 0016/0150] mIoU: 39.71  |  FB-IoU: 49.39
+[Batch: 0017/0150] mIoU: 38.45  |  FB-IoU: 48.74
+[Batch: 0018/0150] mIoU: 38.88  |  FB-IoU: 48.72
+[Batch: 0019/0150] mIoU: 37.65  |  FB-IoU: 47.70
+[Batch: 0020/0150] mIoU: 37.81  |  FB-IoU: 47.32
+[Batch: 0021/0150] mIoU: 39.13  |  FB-IoU: 47.99
+[Batch: 0022/0150] mIoU: 39.20  |  FB-IoU: 48.09
+[Batch: 0023/0150] mIoU: 39.47  |  FB-IoU: 48.08
+[Batch: 0024/0150] mIoU: 39.48  |  FB-IoU: 48.13
+[Batch: 0025/0150] mIoU: 39.16  |  FB-IoU: 48.31
+[Batch: 0026/0150] mIoU: 39.92  |  FB-IoU: 48.50
+[Batch: 0027/0150] mIoU: 39.08  |  FB-IoU: 48.07
+[Batch: 0028/0150] mIoU: 38.46  |  FB-IoU: 47.46
+[Batch: 0029/0150] mIoU: 39.31  |  FB-IoU: 47.69
+[Batch: 0030/0150] mIoU: 39.22  |  FB-IoU: 47.83
+[Batch: 0031/0150] mIoU: 39.41  |  FB-IoU: 47.77
+[Batch: 0032/0150] mIoU: 39.37  |  FB-IoU: 47.66
+[Batch: 0033/0150] mIoU: 39.52  |  FB-IoU: 47.94
+[Batch: 0034/0150] mIoU: 39.56  |  FB-IoU: 47.69
+[Batch: 0035/0150] mIoU: 40.08  |  FB-IoU: 47.78
+[Batch: 0036/0150] mIoU: 39.99  |  FB-IoU: 47.82
+[Batch: 0037/0150] mIoU: 39.74  |  FB-IoU: 47.24
+[Batch: 0038/0150] mIoU: 39.56  |  FB-IoU: 47.00
+[Batch: 0039/0150] mIoU: 39.60  |  FB-IoU: 47.02
+[Batch: 0040/0150] mIoU: 40.04  |  FB-IoU: 47.43
+[Batch: 0041/0150] mIoU: 40.42  |  FB-IoU: 47.47
+[Batch: 0042/0150] mIoU: 40.68  |  FB-IoU: 47.59
+[Batch: 0043/0150] mIoU: 40.82  |  FB-IoU: 47.57
+[Batch: 0044/0150] mIoU: 39.96  |  FB-IoU: 46.81
+[Batch: 0045/0150] mIoU: 39.91  |  FB-IoU: 46.78
+[Batch: 0046/0150] mIoU: 40.06  |  FB-IoU: 47.07
+[Batch: 0047/0150] mIoU: 41.01  |  FB-IoU: 47.50
+[Batch: 0048/0150] mIoU: 40.60  |  FB-IoU: 47.06
+[Batch: 0049/0150] mIoU: 40.50  |  FB-IoU: 46.85
+[Batch: 0050/0150] mIoU: 40.46  |  FB-IoU: 46.81
+[Batch: 0051/0150] mIoU: 40.44  |  FB-IoU: 46.83
+[Batch: 0052/0150] mIoU: 40.20  |  FB-IoU: 46.66
+[Batch: 0053/0150] mIoU: 39.89  |  FB-IoU: 46.54
+[Batch: 0054/0150] mIoU: 39.56  |  FB-IoU: 46.22
+[Batch: 0055/0150] mIoU: 39.49  |  FB-IoU: 46.26
+[Batch: 0056/0150] mIoU: 39.45  |  FB-IoU: 46.13
+[Batch: 0057/0150] mIoU: 39.95  |  FB-IoU: 46.56
+[Batch: 0058/0150] mIoU: 40.39  |  FB-IoU: 46.83
+[Batch: 0059/0150] mIoU: 40.33  |  FB-IoU: 46.68
+[Batch: 0060/0150] mIoU: 40.43  |  FB-IoU: 46.69
+[Batch: 0061/0150] mIoU: 40.59  |  FB-IoU: 46.74
+[Batch: 0062/0150] mIoU: 40.31  |  FB-IoU: 46.59
+[Batch: 0063/0150] mIoU: 40.20  |  FB-IoU: 46.47
+[Batch: 0064/0150] mIoU: 40.05  |  FB-IoU: 46.33
+[Batch: 0065/0150] mIoU: 40.06  |  FB-IoU: 46.40
+[Batch: 0066/0150] mIoU: 40.07  |  FB-IoU: 46.43
+[Batch: 0067/0150] mIoU: 40.35  |  FB-IoU: 46.73
+[Batch: 0068/0150] mIoU: 40.62  |  FB-IoU: 46.96
+[Batch: 0069/0150] mIoU: 40.77  |  FB-IoU: 47.17
+[Batch: 0070/0150] mIoU: 40.77  |  FB-IoU: 47.12
+[Batch: 0071/0150] mIoU: 40.78  |  FB-IoU: 47.09
+[Batch: 0072/0150] mIoU: 40.87  |  FB-IoU: 47.18
+[Batch: 0073/0150] mIoU: 41.10  |  FB-IoU: 47.25
+[Batch: 0074/0150] mIoU: 41.09  |  FB-IoU: 47.26
+[Batch: 0075/0150] mIoU: 40.94  |  FB-IoU: 47.07
+[Batch: 0076/0150] mIoU: 41.16  |  FB-IoU: 47.27
+[Batch: 0077/0150] mIoU: 41.23  |  FB-IoU: 47.32
+[Batch: 0078/0150] mIoU: 41.31  |  FB-IoU: 47.38
+[Batch: 0079/0150] mIoU: 41.34  |  FB-IoU: 47.39
+[Batch: 0080/0150] mIoU: 41.40  |  FB-IoU: 47.58
+[Batch: 0081/0150] mIoU: 41.29  |  FB-IoU: 47.48
+[Batch: 0082/0150] mIoU: 41.48  |  FB-IoU: 47.55
+[Batch: 0083/0150] mIoU: 41.55  |  FB-IoU: 47.72
+[Batch: 0084/0150] mIoU: 41.23  |  FB-IoU: 47.59
+[Batch: 0085/0150] mIoU: 41.32  |  FB-IoU: 47.55
+[Batch: 0086/0150] mIoU: 41.25  |  FB-IoU: 47.57
+[Batch: 0087/0150] mIoU: 41.00  |  FB-IoU: 47.39
+[Batch: 0088/0150] mIoU: 40.87  |  FB-IoU: 47.23
+[Batch: 0089/0150] mIoU: 40.62  |  FB-IoU: 47.08
+[Batch: 0090/0150] mIoU: 40.67  |  FB-IoU: 47.16
+[Batch: 0091/0150] mIoU: 40.62  |  FB-IoU: 47.22
+[Batch: 0092/0150] mIoU: 40.91  |  FB-IoU: 47.30
+[Batch: 0093/0150] mIoU: 40.80  |  FB-IoU: 47.28
+[Batch: 0094/0150] mIoU: 40.71  |  FB-IoU: 47.22
+[Batch: 0095/0150] mIoU: 40.59  |  FB-IoU: 47.25
+[Batch: 0096/0150] mIoU: 40.37  |  FB-IoU: 47.11
+[Batch: 0097/0150] mIoU: 40.37  |  FB-IoU: 47.16
+[Batch: 0098/0150] mIoU: 40.35  |  FB-IoU: 47.12
+[Batch: 0099/0150] mIoU: 40.70  |  FB-IoU: 47.20
+[Batch: 0100/0150] mIoU: 40.71  |  FB-IoU: 47.19
+[Batch: 0101/0150] mIoU: 40.56  |  FB-IoU: 47.11
+[Batch: 0102/0150] mIoU: 40.61  |  FB-IoU: 47.17
+[Batch: 0103/0150] mIoU: 40.62  |  FB-IoU: 47.18
+[Batch: 0104/0150] mIoU: 40.58  |  FB-IoU: 47.22
+[Batch: 0105/0150] mIoU: 40.64  |  FB-IoU: 47.27
+[Batch: 0106/0150] mIoU: 40.71  |  FB-IoU: 47.36
+[Batch: 0107/0150] mIoU: 40.86  |  FB-IoU: 47.51
+[Batch: 0108/0150] mIoU: 40.84  |  FB-IoU: 47.55
+[Batch: 0109/0150] mIoU: 41.05  |  FB-IoU: 47.63
+[Batch: 0110/0150] mIoU: 41.18  |  FB-IoU: 47.72
+[Batch: 0111/0150] mIoU: 41.21  |  FB-IoU: 47.79
+[Batch: 0112/0150] mIoU: 41.25  |  FB-IoU: 47.78
+[Batch: 0113/0150] mIoU: 41.18  |  FB-IoU: 47.76
+[Batch: 0114/0150] mIoU: 41.15  |  FB-IoU: 47.65
+[Batch: 0115/0150] mIoU: 41.01  |  FB-IoU: 47.62
+[Batch: 0116/0150] mIoU: 40.95  |  FB-IoU: 47.55
+[Batch: 0117/0150] mIoU: 40.89  |  FB-IoU: 47.51
+[Batch: 0118/0150] mIoU: 40.87  |  FB-IoU: 47.49
+[Batch: 0119/0150] mIoU: 40.70  |  FB-IoU: 47.35
+[Batch: 0120/0150] mIoU: 40.85  |  FB-IoU: 47.51
+[Batch: 0121/0150] mIoU: 40.76  |  FB-IoU: 47.43
+[Batch: 0122/0150] mIoU: 40.74  |  FB-IoU: 47.43
+[Batch: 0123/0150] mIoU: 40.66  |  FB-IoU: 47.31
+[Batch: 0124/0150] mIoU: 40.83  |  FB-IoU: 47.40
+[Batch: 0125/0150] mIoU: 40.80  |  FB-IoU: 47.40
+[Batch: 0126/0150] mIoU: 40.77  |  FB-IoU: 47.42
+[Batch: 0127/0150] mIoU: 40.67  |  FB-IoU: 47.39
+[Batch: 0128/0150] mIoU: 40.91  |  FB-IoU: 47.53
+[Batch: 0129/0150] mIoU: 40.82  |  FB-IoU: 47.45
+[Batch: 0130/0150] mIoU: 40.77  |  FB-IoU: 47.47
+[Batch: 0131/0150] mIoU: 40.60  |  FB-IoU: 47.31
+[Batch: 0132/0150] mIoU: 40.55  |  FB-IoU: 47.18
+[Batch: 0133/0150] mIoU: 40.52  |  FB-IoU: 47.10
+[Batch: 0134/0150] mIoU: 40.48  |  FB-IoU: 47.02
+[Batch: 0135/0150] mIoU: 40.47  |  FB-IoU: 47.06
+[Batch: 0136/0150] mIoU: 40.49  |  FB-IoU: 47.14
+[Batch: 0137/0150] mIoU: 40.60  |  FB-IoU: 47.20
+[Batch: 0138/0150] mIoU: 40.81  |  FB-IoU: 47.28
+[Batch: 0139/0150] mIoU: 40.78  |  FB-IoU: 47.25
+[Batch: 0140/0150] mIoU: 40.67  |  FB-IoU: 47.21
+[Batch: 0141/0150] mIoU: 40.71  |  FB-IoU: 47.29
+[Batch: 0142/0150] mIoU: 40.69  |  FB-IoU: 47.27
+[Batch: 0143/0150] mIoU: 40.54  |  FB-IoU: 47.21
+[Batch: 0144/0150] mIoU: 40.48  |  FB-IoU: 47.22
+[Batch: 0145/0150] mIoU: 40.39  |  FB-IoU: 47.14
+[Batch: 0146/0150] mIoU: 40.38  |  FB-IoU: 47.11
+[Batch: 0147/0150] mIoU: 40.35  |  FB-IoU: 47.08
+[Batch: 0148/0150] mIoU: 40.49  |  FB-IoU: 47.19
+[Batch: 0149/0150] mIoU: 40.53  |  FB-IoU: 47.23
+[Batch: 0150/0150] mIoU: 40.39  |  FB-IoU: 47.17
+
+*** Test [@Epoch 00] Avg L: 0.00000  mIoU: 40.39   FB-IoU: 47.17   ***
+
+mIoU: 40.39 	 FB-IoU: 47.17
+==================== Finished Testing ====================
